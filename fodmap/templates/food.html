@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{pageTitle}}</title>
+<meta name="description" content="{{metaDesc}}">
+<link rel="canonical" href="{{canonical}}">
+{{hreflang}}
+<link rel="icon" href="/kakamit.png">
+<link rel="stylesheet" href="/fodmap/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Literata:wght@600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Literata:wght@600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Literata:wght@600;700&display=swap"></noscript>
+<script type="application/ld+json">{{jsonLd}}</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo-link"><img src="/kakamit.png" alt="Kakamit" class="logo"></a>
+    <nav class="header-nav">
+      <a href="/fodmap/{{lang}}/">FODMAP</a>
+    </nav>
+  </div>
+</header>
+
+<nav class="breadcrumb">
+  <a href="/fodmap/{{lang}}/">{{ui.backToSearch}}</a>
+</nav>
+
+<h1>{{h1}}</h1>
+
+<div class="status-badge status-{{status}}">
+  <span class="dot dot-{{status}}"></span>
+  {{statusLabel}}
+</div>
+
+<dl class="info-grid">
+  <div class="info-item">
+    <dt>{{ui.fodmapTypeLabel}}</dt>
+    <dd>{{fodmapType}}</dd>
+  </div>
+  <div class="info-item">
+    <dt>{{ui.portionLabel}}</dt>
+    <dd>{{portion}}</dd>
+  </div>
+</dl>
+
+<p class="description">{{description}}</p>
+
+{{alternativesHtml}}
+
+{{categoryLinksHtml}}
+
+<div class="cta">
+  <h2>{{ui.ctaTitle}}</h2>
+  <p>{{ui.ctaText}}</p>
+  <a href="/">{{ui.ctaButton}}</a>
+</div>
+
+<div class="disclaimer">
+  <p>{{disclaimer}}</p>
+</div>
+
+<div class="sources">
+  <p><strong>{{ui.sourcesTitle}}:</strong></p>
+  <ol>{{sourcesHtml}}</ol>
+</div>
+
+<div class="footer">
+  <p>&copy; 2026 Kakamit &middot; <a href="/">{{ui.ctaButton}}</a> &middot; <a href="/fodmap/{{lang}}/">{{ui.allFoods}}</a></p>
+</div>
+
+</body>
+</html>

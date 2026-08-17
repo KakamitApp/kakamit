@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{title}} – Kakamit</title>
+<meta name="description" content="{{metaDesc}}">
+<link rel="canonical" href="{{canonical}}">
+{{hreflang}}
+<link rel="icon" href="/kakamit.png">
+<link rel="stylesheet" href="/fodmap/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Literata:wght@600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Literata:wght@600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Literata:wght@600;700&display=swap"></noscript>
+<script type="application/ld+json">{{jsonLd}}</script>
+<style>
+.faq-section{margin:2rem 0}
+.faq-section h2{margin-bottom:1rem}
+.faq-item{border:1px solid var(--card-border);border-radius:var(--radius);margin-bottom:0.75rem;background:var(--card);overflow:hidden}
+.faq-item summary{padding:1rem 1.25rem;font-weight:500;cursor:pointer;list-style:none;display:flex;align-items:center;gap:0.75rem;transition:background 0.15s}
+.faq-item summary:hover{background:color-mix(in srgb, var(--primary) 4%, transparent)}
+.faq-item summary::before{content:"";display:inline-block;width:0.5rem;height:0.5rem;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(-45deg);transition:transform 0.2s;flex-shrink:0}
+.faq-item[open] summary::before{transform:rotate(45deg)}
+.faq-item .faq-answer{padding:0 1.25rem 1.25rem;color:var(--muted);line-height:1.7;font-size:0.925rem}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo-link"><img src="/kakamit.png" alt="Kakamit" class="logo"></a>
+    <nav class="header-nav">
+      <a href="/fodmap/{{lang}}/">FODMAP</a>
+      <a href="/faq/{{lang}}/">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<h1>{{title}}</h1>
+<p class="subtitle">{{metaDesc}}</p>
+
+{{sectionsHtml}}
+
+<div class="cta">
+  <h2>Kakamit</h2>
+  <p>{{ctaText}}</p>
+  <a href="/">{{backToApp}}</a>
+</div>
+
+<div class="disclaimer">
+  <p>{{disclaimer}}</p>
+</div>
+
+<div class="footer">
+  <p>&copy; 2026 Kakamit &middot; <a href="/">{{backToApp}}</a></p>
+</div>
+
+</body>
+</html>

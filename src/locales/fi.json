@@ -1,0 +1,309 @@
+{
+  "header": {
+    "title": "kakamit",
+    "toggleTheme": "Vaihda teemaa",
+    "changeLanguage": "Vaihda kieltä",
+    "signedInAs": "Kirjautuneena nimellä",
+    "logout": "Kirjaudu ulos",
+    "demoMessage": "Yksityistä suoliston hyvinvoinnin seurantaa"
+  },
+  "form": {
+    "title": "Millainen se oli?",
+    "description": "Kirjaa ulostetyyppisi ulosteasteikon mukaan.",
+    "valueLabel": "Ulostetyyppi",
+    "commentLabel": "Kommentti (valinnainen)",
+    "commentPlaceholder": "Lisähuomioita tai havaintoja?",
+    "saveButton": "Tallenna merkintä",
+    "savingButton": "Tallennetaan..."
+  },
+  "chart": {
+    "title": "Vatsan toiminta",
+    "description": "Katsaus päivittäisiin keskimääräisiin ulostetyyppeihisi.",
+    "timePeriodPlaceholder": "Ajanjakso",
+    "today": "Tänään",
+    "last7Days": "Viimeiset 7 päivää",
+    "last30Days": "Viimeiset 30 päivää",
+    "last90Days": "Viimeiset 90 päivää",
+    "aiSummaryTitle": "AI Features",
+    "aiProPlaceholder": "AI-ominaisuudet ovat saatavilla Pro-versiossa.",
+    "summaryError": "Trendiyhteenvedon luominen epäonnistui.",
+    "noData": "Valitulta ajanjaksolta ei ole tietoja saatavilla.",
+    "timePeriodPrefix": "viimeiset",
+    "timePeriodSuffix": "päivää",
+    "stoolType": "Ulostetyyppi",
+    "dailyEvaluation": "Suolikaasu"
+  },
+  "list": {
+    "edit": "Muokkaa",
+    "editEntryTitle": "Muokkaa merkintää",
+    "title": "Merkintäsi",
+    "description": "Täydellinen loki vatsasi toiminnasta.",
+    "storageInfo": {
+      "label": "Tietojen tallennus:",
+      "text": "Kaikki käyttäjän syöttämät tiedot (uloste- ja kaasumerkinnät) tallennetaan ainoastaan selaimen IndexedDB-muistiin. Tämä tarkoittaa, että tiedot ovat vain sillä laitteella ja selaimella, jolla ne on syötetty, eivätkä ne synkronoidu laitteiden välillä."
+    },
+    "exportDataButton": "Lataa tiedot",
+    "exportCsvButton": "Vie CSV",
+    "noEntries": "Sinulla ei ole vielä merkintöjä. Aloita lisäämällä yksi yllä!",
+    "noComment": "Ei kommenttia",
+    "aiSuggestion": "Tekoälyn ehdotus saatavilla pro-versiossa.",
+    "delete": "Poista",
+    "confirmDeleteTitle": "Oletko varma?",
+    "confirmDeleteDesc": "Tätä toimintoa ei voi peruuttaa. Tämä poistaa tämän merkinnän pysyvästi.",
+    "cancel": "Peruuta",
+    "suggestionsReadyTitle": "Ehdotukset valmiina",
+    "suggestionsReadyDesc": "Tekoäly on tunnistanut joitakin merkintöjä, joiden karsimista voisit harkita.",
+    "allGoodTitle": "Kaikki hyvin!",
+    "allGoodDesc": "Tekoäly ei löytänyt ilmeisiä merkintöjä ehdotetavaksi poistetavaksi.",
+    "errorTitle": "Virhe",
+    "errorDesc": "Tekoälyn ehdotuksia ei voitu hakea.",
+    "evaluationEntriesTitle": "Päivän kaasu",
+    "entriesForDate": "Merkinnät päivälle",
+    "reportButton": "PDF-yhteenveto",
+    "importDataButton": "Tuo tiedot",
+    "importConfirmTitle": "Tuodaanko tiedot?",
+    "importConfirmDesc": "Löytyi {{count}} kelvollista merkintää. Ne yhdistetään olemassa oleviin tietoihisi (saman tunnisteen merkinnät korvataan).",
+    "importSuccess": "Tuotiin {{count}} merkintää.",
+    "importSkipped": "{{count}} merkintää ohitettiin (virheellisiä tai tuntemattomia).",
+    "importError": "Tiedostoa ei voitu lukea. Varmista, että se on kelvollinen Kakamit JSON- tai CSV-vienti.",
+    "importEmpty": "Tiedostosta ei löytynyt kelvollisia merkintöjä."
+  },
+  "toast": {
+    "entryUpdated": "Merkintä päivitetty.",
+    "success": "Onnistui",
+    "entrySaved": "Merkintä tallennettu paikallisesti.",
+    "entryDeleted": "Merkintä poistettu.",
+    "error": "Virhe",
+    "saveError": "Merkintöjen tallentaminen paikalliseen muistiin epäonnistui."
+  },
+  "footer": {
+    "rights": "Kaikki oikeudet pidätetään.",
+    "aboutLink": "Tietoja",
+    "fodmapLink": "FODMAP-opas",
+    "featuresLink": "Ominaisuudet",
+    "privacyLink": "Privacy"
+  },
+  "selection": {
+    "typeLabel": "Tyyppi",
+    "type1": "Erillisiä kovia paakkuja, kuin pähkinöitä (vaikea ulostaa)",
+    "type2": "Makkaramainen, mutta kokkareinen",
+    "type3": "Kuin makkara, mutta pinnassa on halkeamia",
+    "type4": "Kuin makkara tai käärme, sileä ja pehmeä (tavallinen uloste)",
+    "type5": "Pehmeitä, selväreunaisia möykkyjä",
+    "type6": "Höttöisiä paloja repaleisilla reunoilla, puuromainen uloste (ripuli)",
+    "type7": "Vesimäinen, ei kiinteitä paloja, täysin nestemäinen (ripuli)"
+  },
+  "about": {
+    "title": "KAKAMITin tarina",
+    "p1": "KAKAMIT syntyi isän ja pojan, kahden pieruhuumorin ystävän, äärimmäisen vakavasta tarpeesta: selkeästä ja mutkattomasta tavasta seurata päivittäistä vatsan toimintaa – koska jokainen sentti on tärkeä. Nimi Kakamit on tietenkin suomalainen sanaleikki, joka yhdistää sanat kakka ja mittaus – siispä Kakamit!",
+    "p2": "Huumorilla, mutta vakavasti: Jokaisella meistä on joskus pakki sekaisin, kaasuuntuminen on todellinen uhka, ja vessareisut voivat olla mysteerisiä (ja tuskalisia) kokemuksia. Puhumatakaan siitä, kun on seurattava lapsen tai läheisen suolistosairauden tilaa. Emme vähättele näitä hetkiä. Halusimme luoda jotain erilaista. Työkalun, joka keskittyy yhteen asiaan ja tekee sen sairaan hyvin – vatsan toiminnan kirjaamiseen tieteellisellä tarkkudella.",
+    "p3": "Missiomme on tarjota yksityinen, käyttäjäystävällinen ja anteeksipyytelemätön suora työkalu, joka antaa kaikille mahdollisuuden seurata ruoansulatuskanavan hyvinvointia. Tarjoamme yksinkertaista ja tehokasta seurantaa – jotta sinä voit keskittyä elämän muihin, vähemmän haiseviin asioihin. Kiitos, että olet osa matkaamme – ja muista huuhdella!",
+    "backButton": "Takaisin seurantaan",
+    "generateTestData": "Luo testidataa"
+  },
+  "dailyEvaluation": {
+    "title": "Kuinka suuren kaasukuorman koit viimeisen 24 tunnin aikana?",
+    "description": "Arvioi asteikolla 1-5.",
+    "linkText": "Lue lisää Daily Gas Burden Scale (DGBS) -asteikosta.",
+    "commentLabel": "Kommentti (valinnainen)",
+    "commentPlaceholder": "Lisähuomioita tai havaintoja?"
+  },
+  "insights": {
+    "title": "Oivallukset",
+    "trendDown": "Kaasupisteet laskivat {{percent}}% viime viikkoon verrattuna.",
+    "trendUp": "Kaasupisteet nousivat {{percent}}% viime viikkoon verrattuna.",
+    "correlation": "Päivinä joissa {{group}} uloste, kaasupisteet ovat {{diff}} pistettä korkeammat.",
+    "stoolHard": "kova (tyyppi 1–2)",
+    "stoolLoose": "löysä (tyyppi 6–7)",
+    "weekday": "{{day}}isin kaasupisteet ovat keskimäärin korkeimmat (ka. {{avg}})."
+  },
+  "streak": {
+    "days": "{{days}} päivää putkeen",
+    "day1": "1 päivä putkeen",
+    "firstEntry": "Ensimmäinen kirjaus!",
+    "milestone7": "Viikko täynnä!",
+    "milestone14": "2 viikkoa putkeen!",
+    "milestone30": "Kuukausi putkeen!",
+    "milestone60": "2 kuukautta putkeen!",
+    "milestone90": "3 kuukautta putkeen!",
+    "milestone180": "Puoli vuotta!",
+    "milestone365": "Kokonainen vuosi!",
+    "newRecord": "Uusi ennätys: {{days}} päivää!",
+    "startNew": "Kirjaa tänään jatkaaksesi putkea",
+    "record": "Ennätys"
+  },
+  "dgbs": {
+    "title": "Daily Gas Burden Scale (DGBS)",
+    "p1": "Monet ihmiset kokevat päivittäin kaasuun liittyviä oireita, kuten ilmavaivoja ja vatsan turvotusta. Nämä oireet voivat tuntua kiusallisilta ja haitata jokapäiväistä elämää.\n\nOlemme kehittäneet uuden, erittäin yksinkertaisen mittarin nimeltä DGBS (Daily Gas Burden Scale). Se koostuu yhdestä kysymyksestä, joka kysyy, kuinka paljon kaasuun liittyvät oireet vaivasivat sinua viimeisen 24 tunnin aikana. Vastaus annetaan asteikolla 1–5:\n1 = Ei lainkaan häiritsevä, 5 = Erittäin häiritsevä.\n\nYksi selkeä kysymys on helppo vastata puhelimella tai tietokoneella. Tämä lähestymistapa tuottaa luotettavaa tietoa ajan mittaan ilman, että prosessi tuntuu raskaalta. \n\nDGBS ei ole diagnostinen työkalu, vaan standardoitu itsearviointi tutkimustarkoituksiin ja oireiden pitkäaikaiseen seurantaan.",
+    "levels": {
+      "level1": {
+        "title": "Taso 1: Ei kaasukuormitusta",
+        "description": "Ei merkittävää kuormitusta suolikaasusta."
+      },
+      "level2": {
+        "title": "Taso 2: Lievä kaasukuormitus",
+        "description": "Lievä kuormitus, joka ei merkittävästi haittaa päivittäisiä toimia."
+      },
+      "level3": {
+        "title": "Taso 3: Kohtalainen kaasukuormitus",
+        "description": "Kohtalainen kuormitus, joka ajoittain kiinnittää huomion, mutta ei rajoita toimintaa."
+      },
+      "level4": {
+        "title": "Taso 4: Merkittävä kaasukuormitus",
+        "description": "Merkittävä kuormitus, joka haittasi normaalia toimintaa."
+      },
+      "level5": {
+        "title": "Taso 5: Erittäin suuri kaasukuormitus",
+        "description": "Erittäin suuri kuormitus, joka selvästi haittaa elämää ja/tai sosiaalisia tilanteita."
+      }
+    }
+  },
+  "features": {
+    "title": "Ominaisuudet",
+    "hero": {
+      "title": "Kakamit auttaa seuraamaan suoliston hyvinvointia yksityisesti.",
+      "subtitle": "Kirjaa ulostetyyppi, kaasukuorma ja omat huomiot — kaikki tiedot pysyvät omalla laitteellasi.",
+      "ctaStart": "Aloita seuranta",
+      "ctaPrivacy": "Lue yksityisyydestä"
+    },
+    "main": {
+      "bristol": {
+        "title": "Bristol-asteikko",
+        "desc": "Seuraa ulostetyyppiä 1–7 asteikolla."
+      },
+      "dgbs": {
+        "title": "Daily Gas Burden Scale",
+        "desc": "Arvioi päivän kaasukuormaa yksinkertaisella 1–5 asteikolla."
+      },
+      "log": {
+        "title": "Yksityinen loki",
+        "desc": "Lisää kommentteja, muokkaa merkintöjä ja vie data tarvittaessa JSON-muodossa."
+      }
+    },
+    "why": {
+      "title": "Miksi Kakamit?",
+      "f1": "Nopeaan päivittäiseen kirjaamiseen",
+      "f2": "Pitkäaikaiseen oireiden hahmottamiseen",
+      "f3": "Lääkärikäyntiin valmistautumiseen",
+      "f4": "Herkkien tietojen pitämiseen omalla laitteella"
+    },
+    "privacy": {
+      "title": "Tietosi eivät lähde laitteeltasi.",
+      "b1": "Ei käyttäjätilejä",
+      "b2": "Ei analytiikkaa",
+      "b3": "Ei mainontaa",
+      "b4": "Ei pilvisynkkausta",
+      "b5": "Data tallennetaan selaimen IndexedDB-tietokantaan"
+    },
+    "table": {
+      "title": "Ominaisuudet",
+      "hFeature": "Ominaisuus",
+      "hStatus": "Tila",
+      "active": "Käytössä",
+      "planned": "Tulossa",
+      "f1": "DGBS-kaasukuorman arviointi",
+      "f2": "Bristol-ulosteseuranta",
+      "f3": "Kommentit merkintöihin",
+      "f4": "Merkintöjen muokkaus ja poisto",
+      "f5": "Trendit ja kaaviot",
+      "f6": "JSON- ja CSV-vienti ja -tuonti",
+      "f7": "13 kieltä",
+      "f8": "Offline-PWA",
+      "f9": "Tulostettava PDF-yhteenveto lääkärille",
+      "f10": "Paikallinen salaus"
+    },
+    "roadmap": {
+      "title": "Tulossa seuraavaksi",
+      "r1": "Salattu yksityisyystila",
+      "r2": "Salattu varmuuskopio",
+      "r3": "Automaattinen lukitus",
+      "r4": "Salasanan vaihto",
+      "r5": "Biometrinen avaus myöhemmin"
+    },
+    "trust": "Olemme rakentaneet Kakamitin yksityisyys edellä. Se ei yritä kerätä sinusta dataa — se auttaa sinua ymmärtämään omaa oloasi."
+  },
+  "report": {
+    "title": "Kakamit-yhteenveto",
+    "back": "Takaisin seurantaan",
+    "periodLabel": "Ajanjakso",
+    "period7": "Viimeiset 7 päivää",
+    "period30": "Viimeiset 30 päivää",
+    "period90": "Viimeiset 90 päivää",
+    "printButton": "Tallenna PDF",
+    "loading": "Ladataan raporttia...",
+    "noData": "Valitulta ajanjaksolta ei ole merkintöjä.",
+    "generatedAt": "Luotu",
+    "totalEntries": "Merkinnät yhteensä",
+    "stoolEntries": "Ulostemerkinnät",
+    "dgbsEntries": "Kaasuarviot",
+    "stoolAverage": "Bristol-keskiarvo",
+    "dgbsAverage": "DGBS-keskiarvo",
+    "stoolDistribution": "Bristol-jakauma",
+    "dgbsDistribution": "DGBS-jakauma",
+    "level": "Taso",
+    "dailySummary": "Päiväkohtainen yhteenveto",
+    "date": "Päivä",
+    "stoolValues": "Ulostearvot",
+    "dgbsValues": "DGBS-arvot",
+    "comments": "Kommentit",
+    "disclaimerTitle": "Tärkeää:",
+    "disclaimerBody": "Tämä ei ole diagnostinen raportti tai lääketieteellinen neuvo. Se perustuu vain käyttäjän Kakamit-sovellukseen kirjaamiin tietoihin.",
+    "privacyNote": "Raportti luodaan paikallisesti selaimessa. Tietoja ei lähetetä Kakamitille, palvelimelle tai pilveen.",
+    "clinicalSummary": "Kliininen yhteenveto",
+    "dataCoverage": "Päiviä, joilta on dataa",
+    "missingDays": "Puuttuvat päivät",
+    "dominantStool": "Yleisin ulosteryhmä",
+    "highDgbsDays": "Päiviä DGBS 4-5",
+    "looseStoolDays": "Päiviä Bristol 6-7",
+    "notableFindings": "Huomioitavaa",
+    "noNotableFindings": "Valitulla ajanjaksolla ei ole toistuvia korkeita arvoja tai merkittäviä data-aukkoja.",
+    "weeklySummary": "Viikkoyhteenveto",
+    "week": "Viikko",
+    "dataDays": "Datapäivät",
+    "dailyLimitNote": "Päiväkohtaiset rivit on rajattu tämän yhteenvedon viimeisimpään 30 päivään.",
+    "stoolCategory": {
+      "hard": "Kova (tyypit 1-2)",
+      "normal": "Lähempänä tavallista vaihteluväliä (tyypit 3-5)",
+      "loose": "Löysä (tyypit 6-7)"
+    },
+    "findings": {
+      "missingDays": "{{days}} päivältä valitulla ajanjaksolla ei ole merkintöjä; tulkinta voi olla epävarma.",
+      "highDgbsDays": "DGBS 4-5 on kirjattu {{days}} päivänä.",
+      "looseStoolDays": "Bristol 6-7 on kirjattu {{days}} päivänä.",
+      "type7Streak": "Bristol-tyyppi 7 on kirjattu {{days}} peräkkäisenä päivänä.",
+      "highDgbsStreak": "DGBS 4-5 on kirjattu {{days}} peräkkäisenä päivänä."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 26, 2026",
+    "intro": "Kakamit is built on the principle of maximum privacy. It is a simple tool for tracking gut symptoms without collecting or processing personal data.",
+    "section1": {
+      "title": "1. What data is collected? — None.",
+      "body": "Kakamit does not collect any personal data, analytics, or tracking information. We do not use third-party tools or ad networks. We cannot identify our users."
+    },
+    "section2": {
+      "title": "2. Where is the data stored?",
+      "body": "All data you enter (DGBS scores, Bristol stool types, comments, and history) is stored exclusively on your own device using your browser's IndexedDB. This data is never sent to our servers, the cloud, or any third parties."
+    },
+    "section3": {
+      "title": "3. Technical implementation and network traffic",
+      "body": "Kakamit is a Progressive Web App (PWA). It only uses technically necessary cookies and browser storage (such as Service Workers and cache) to enable offline use and installation.\n\nWhen you visit kakamit.com, our hosting provider receives standard technical information (such as your IP address) that is required to deliver the application files to you. This information is not stored or used by Kakamit."
+    },
+    "section4": {
+      "title": "4. Tietojen vienti, tuonti ja poisto",
+      "body": "Vienti: Voit viedä kaikki tietosi JSON-tiedostona (varmuuskopiointiin) tai CSV-tiedostona (taulukkolaskentaan) milloin tahansa.\n\nTuonti: Voit tuoda aiemmin viedyn JSON- tai CSV-tiedoston takaisin sovellukseen samalla tai toisella laitteella. Kaikki käsittely tapahtuu paikallisesti selaimessasi.\n\nPoisto: Voit poistaa tietosi tyhjentämällä selaimen sivustotiedot tai poistamalla sovelluksen.\n\nTärkeää: Koska tietosi eivät koskaan poistu laitteeltasi, niitä ei voi palauttaa, jos poistat ne tai nollaat selaimen."
+    },
+    "section5": {
+      "title": "5. Sharing and Third Parties",
+      "body": "We do not share, sell, or disclose any data. Your data is only ever shared if you personally choose to export and share it yourself (for example, with your doctor)."
+    },
+    "section6": {
+      "title": "6. Changes to this Privacy Policy",
+      "body": "Any changes to this Privacy Policy will be published on this page. We will notify you in the app of any significant changes."
+    },
+    "contactTitle": "Contact",
+    "contactBody": "For feedback, questions, or collaboration:",
+    "contactHandle": "X / Twitter: @KakamitApp"
+  }
+}

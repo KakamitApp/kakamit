@@ -1,0 +1,309 @@
+{
+  "header": {
+    "title": "kakamit",
+    "toggleTheme": "Theme wechseln",
+    "changeLanguage": "Sprache ändern",
+    "signedInAs": "Angemeldet als",
+    "logout": "Abmelden",
+    "demoMessage": "Private Überwachung der Darmgesundheit"
+  },
+  "form": {
+    "title": "Wie war es?",
+    "description": "Protokollieren Sie Ihren Stuhltyp gemäß der Stuhl-Skala.",
+    "valueLabel": "Stuhltyp",
+    "commentLabel": "Kommentar (optional)",
+    "commentPlaceholder": "Zusätzliche Notizen oder Beobachtungen?",
+    "saveButton": "Eintrag speichern",
+    "savingButton": "Speichern..."
+  },
+  "chart": {
+    "title": "Darmgesundheit",
+    "description": "Ein Blick auf Ihren täglichen durchschnittlichen Stuhltyp.",
+    "timePeriodPlaceholder": "Zeitraum",
+    "today": "Heute",
+    "last7Days": "Letzte 7 Tage",
+    "last30Days": "Letzte 30 Tage",
+    "last90Days": "Letzte 90 Tage",
+    "aiSummaryTitle": "KI-Funktionen",
+    "aiProPlaceholder": "KI-Funktionen sind in der Pro-Version verfügbar.",
+    "summaryError": "Trendzusammenfassung konnte nicht erstellt werden.",
+    "noData": "Für den ausgewählten Zeitraum sind keine Daten verfügbar.",
+    "timePeriodPrefix": "letzte",
+    "timePeriodSuffix": "Tage",
+    "stoolType": "Stuhltyp",
+    "dailyEvaluation": "Darmgas"
+  },
+  "list": {
+    "edit": "Bearbeiten",
+    "editEntryTitle": "Eintrag bearbeiten",
+    "title": "Ihre Einträge",
+    "description": "Ein vollständiges Protokoll Ihrer Darmaktivität.",
+    "storageInfo": {
+      "label": "Datenspeicherung:",
+      "text": "Alle vom Benutzer eingegebenen Daten (Stuhl- und Gaseinträge) werden nur im IndexedDB des Browsers gespeichert. Das bedeutet, dass die Daten nur auf dem Gerät und im Browser verfügbar sind, auf dem sie eingegeben wurden, und nicht zwischen Geräten synchronisiert werden."
+    },
+    "exportDataButton": "Daten exportieren",
+    "exportCsvButton": "Export CSV",
+    "noEntries": "Sie haben noch keine Einträge. Fügen Sie oben einen hinzu, um loszulegen!",
+    "noComment": "Kein Kommentar",
+    "aiSuggestion": "KI-Vorschlag in der Pro-Version verfügbar.",
+    "delete": "Löschen",
+    "confirmDeleteTitle": "Sind Sie sicher?",
+    "confirmDeleteDesc": "Diese Aktion kann nicht rückgängig gemacht werden. Dadurch wird dieser Eintrag dauerhaft gelöscht.",
+    "cancel": "Abbrechen",
+    "suggestionsReadyTitle": "Vorschläge bereit",
+    "suggestionsReadyDesc": "Die KI hat einige Einträge identifiziert, die Sie möglicherweise entfernen möchten.",
+    "allGoodTitle": "Alles gut!",
+    "allGoodDesc": "Die KI hat keine offensichtlichen Einträge zum Löschen gefunden.",
+    "errorTitle": "Fehler",
+    "errorDesc": "KI-Vorschläge konnten nicht abgerufen werden.",
+    "evaluationEntriesTitle": "Tägliches Gas",
+    "entriesForDate": "Einträge für",
+    "reportButton": "PDF summary",
+    "importDataButton": "Import Data",
+    "importConfirmTitle": "Import data?",
+    "importConfirmDesc": "Found {{count}} valid entries. They will be merged into your existing data (entries with the same ID are replaced).",
+    "importSuccess": "Imported {{count}} entries.",
+    "importSkipped": "{{count}} entries were skipped (invalid or unrecognized).",
+    "importError": "Could not read the file. Make sure it is a valid Kakamit JSON or CSV export.",
+    "importEmpty": "No valid entries found in the file."
+  },
+  "toast": {
+    "entryUpdated": "Eintrag aktualisiert.",
+    "success": "Erfolg",
+    "entrySaved": "Eintrag lokal gespeichert.",
+    "entryDeleted": "Eintrag gelöscht.",
+    "error": "Fehler",
+    "saveError": "Einträge konnten nicht im lokalen Speicher gespeichert werden."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "aboutLink": "Über",
+    "fodmapLink": "FODMAP-Ratgeber",
+    "featuresLink": "Features",
+    "privacyLink": "Privacy"
+  },
+  "selection": {
+    "typeLabel": "Typ",
+    "type1": "Einzelne, harte Klumpen, wie Nüsse (schwer auszuscheiden)",
+    "type2": "Wurstförmig, aber klumpig",
+    "type3": "Wie eine Wurst, aber mit Rissen auf der Oberfläche",
+    "type4": "Wie eine Wurst oder Schlange, glatt und weich (durchschnittlicher Stuhl)",
+    "type5": "Weiche Kleckse mit klaren Rändern",
+    "type6": "Fluffige Stücke mit ausgefransten Rändern, ein breiiger Stuhl (Durchfall)",
+    "type7": "Wässrig, keine festen Stücke, vollständig flüssig (Durchfall)"
+  },
+  "about": {
+    "title": "Die Geschichte von KAKAMIT",
+    "p1": "KAKAMIT entstand aus einem extrem ernsten Bedürfnis zwischen einem Vater und einem Sohn, zwei Freunden des Furz-Humors: eine klare und einfache Möglichkeit, den täglichen Stuhlgang zu verfolgen – denn jeder Zentimeter zählt. Der Name Kakamit ist natürlich ein finnisches Wortspiel, das die Wörter 'kakka' (Kacke) und 'mittaus' (Messung) kombiniert – daher Kakamit!",
+    "p2": "Mit Humor, aber im Ernst: Wir alle haben manchmal einen Magenverstimmung, Blähungen sind eine echte Bedrohung, und Toilettengänge können mysteriöse (und schmerzhafte) Erfahrungen sein. Ganz zu schweigen davon, wenn Sie die Darmerkrankung eines Kindes oder eines geliebten Menschen überwachen müssen. Wir nehmen diese Momente nicht auf die leichte Schulter. Wir wollten etwas anderes schaffen. Ein Werkzeug, das sich auf eine Sache konzentriert und sie verdammt gut macht – die Protokollierung von Stuhltypen mit wissenschaftlicher Präzision.",
+    "p3": "Unsere Mission ist es, ein privates, benutzerfreundliches und unverblümt direktes Werkzeug bereitzustellen, das es jedem ermöglicht, sein Verdauungswohlbefinden zu überwachen. Wir bieten eine einfache und effektive Nachverfolgung – damit Sie sich auf die anderen, weniger riechenden Dinge des Lebens konzentrieren können. Danke, dass Sie Teil unserer Reise sind – und denken Sie daran, zu spülen!",
+    "backButton": "Zurück zur Verfolgung",
+    "generateTestData": "Testdaten generieren"
+  },
+  "dailyEvaluation": {
+    "title": "Wie stark haben Sie die Gasbelastung in den letzten 24 Stunden empfunden?",
+    "description": "Bewerten Sie auf einer Skala von 1-5.",
+    "linkText": "Lesen Sie mehr über die Daily Gas Burden Scale (DGBS).",
+    "commentLabel": "Kommentar (optional)",
+    "commentPlaceholder": "Zusätzliche Notizen oder Beobachtungen?"
+  },
+  "streak": {
+    "days": "{{days}} Tage in Folge",
+    "day1": "1 Tag erfasst",
+    "firstEntry": "Erster Eintrag!",
+    "milestone7": "Eine Woche!",
+    "milestone14": "2 Wochen in Folge!",
+    "milestone30": "Ein Monat!",
+    "milestone60": "2 Monate in Folge!",
+    "milestone90": "3 Monate in Folge!",
+    "milestone180": "Ein halbes Jahr!",
+    "milestone365": "Ein ganzes Jahr!",
+    "newRecord": "Neuer Rekord: {{days}} Tage!",
+    "startNew": "Heute eintragen um deine Serie fortzusetzen",
+    "record": "Rekord"
+  },
+  "dgbs": {
+    "title": "Daily Gas Burden Scale (DGBS)",
+    "p1": "Viele Menschen leiden täglich unter gasbedingten Symptomen wie Blähungen und Völlegefühl. Diese Symptome können peinlich sein und das tägliche Leben beeinträchtigen.\n\nWir haben eine neue, sehr einfache Messgröße namens DGBS (Daily Gas Burden Scale) entwickelt. Sie besteht aus einer einzigen Frage, die erfasst, wie sehr Sie in den letzten 24 Stunden von Gassymptomen belästigt wurden. Die Antwort wird auf einer Skala von 1–5 gegeben:\n1 = Nicht belästigend, 5 = Äußerst belästigend.\n\nEine klare Frage ist leicht auf einem Telefon oder Computer zu beantworten. Dieser Ansatz liefert im Laufe der Zeit zuverlässige Informationen, ohne den Prozess als belastend zu empfinden.\n\nDGBS ist kein diagnostisches Instrument, sondern eine standardisierte Selbsteinschätzung für Forschungszwecke und die langfristige Symptomüberwachung.",
+    "levels": {
+      "level1": {
+        "title": "Stufe 1: Keine Gasbelastung",
+        "description": "Keine nennenswerte Belastung durch Darmgase."
+      },
+      "level2": {
+        "title": "Stufe 2: Leichte Gasbelastung",
+        "description": "Leichte Belastung, die die täglichen Aktivitäten nicht wesentlich beeinträchtigt."
+      },
+      "level3": {
+        "title": "Stufe 3: Mäßige Gasbelastung",
+        "description": "Mäßige Belastung, die gelegentlich die Aufmerksamkeit auf sich zieht, aber die Aktivitäten nicht einschränkt."
+      },
+      "level4": {
+        "title": "Stufe 4: Erhebliche Gasbelastung",
+        "description": "Erhebliche Belastung, die die normalen Aktivitäten beeinträchtigt hat."
+      },
+      "level5": {
+        "title": "Stufe 5: Sehr hohe Gasbelastung",
+        "description": "Sehr hohe Belastung, die das Leben und/oder soziale Situationen deutlich beeinträchtigt."
+      }
+    }
+  },
+  "features": {
+    "title": "Features",
+    "hero": {
+      "title": "Kakamit helps you track gut health privately.",
+      "subtitle": "Log stool types, gas burden, and personal notes — all data stays on your device.",
+      "ctaStart": "Start tracking",
+      "ctaPrivacy": "Read about privacy"
+    },
+    "main": {
+      "bristol": {
+        "title": "Bristol Scale",
+        "desc": "Track stool types on a 1–7 scale."
+      },
+      "dgbs": {
+        "title": "Daily Gas Burden Scale",
+        "desc": "Evaluate daily gas burden on a simple 1–5 scale."
+      },
+      "log": {
+        "title": "Private Log",
+        "desc": "Add comments, edit entries, and export data as JSON if needed."
+      }
+    },
+    "why": {
+      "title": "Why Kakamit?",
+      "f1": "For quick daily logging",
+      "f2": "For understanding long-term symptoms",
+      "f3": "For preparing for doctor visits",
+      "f4": "For keeping sensitive data on your own device"
+    },
+    "privacy": {
+      "title": "Your data doesn't leave your device.",
+      "b1": "No user accounts",
+      "b2": "No analytics",
+      "b3": "No advertising",
+      "b4": "No cloud sync",
+      "b5": "Data is stored in your browser's IndexedDB database"
+    },
+    "table": {
+      "title": "Features",
+      "hFeature": "Feature",
+      "hStatus": "Status",
+      "active": "Active",
+      "planned": "Planned",
+      "f1": "DGBS gas burden evaluation",
+      "f2": "Bristol stool tracking",
+      "f3": "Entry comments",
+      "f4": "Edit and delete entries",
+      "f5": "Trends and charts",
+      "f6": "JSON & CSV export & import",
+      "f7": "13 languages",
+      "f8": "Offline PWA",
+      "f9": "Printable PDF summary for doctor visits",
+      "f10": "Local encryption"
+    },
+    "roadmap": {
+      "title": "Coming Next",
+      "r1": "Encrypted privacy mode",
+      "r2": "Encrypted backups",
+      "r3": "Auto-lock",
+      "r4": "Password changes",
+      "r5": "Biometric unlock later"
+    },
+    "trust": "We built Kakamit with privacy first. It doesn't try to collect your data — it helps you understand your well-being."
+  },
+  "report": {
+    "title": "Kakamit report summary",
+    "back": "Back to tracking",
+    "periodLabel": "Period",
+    "period7": "Last 7 days",
+    "period30": "Last 30 days",
+    "period90": "Last 90 days",
+    "printButton": "Save as PDF",
+    "loading": "Loading report...",
+    "noData": "No entries available for the selected period.",
+    "generatedAt": "Generated",
+    "totalEntries": "Total entries",
+    "stoolEntries": "Stool entries",
+    "dgbsEntries": "Gas entries",
+    "stoolAverage": "Bristol average",
+    "dgbsAverage": "DGBS average",
+    "stoolDistribution": "Bristol distribution",
+    "dgbsDistribution": "DGBS distribution",
+    "level": "Level",
+    "dailySummary": "Daily summary",
+    "date": "Date",
+    "stoolValues": "Stool values",
+    "dgbsValues": "DGBS values",
+    "comments": "Comments",
+    "disclaimerTitle": "Important:",
+    "disclaimerBody": "This is not a diagnostic report or medical advice. It is based only on data the user has entered into Kakamit.",
+    "privacyNote": "The report is generated locally in the browser. Data is not sent to Kakamit, a server, or the cloud.",
+    "clinicalSummary": "Clinical summary",
+    "dataCoverage": "Days with data",
+    "missingDays": "Missing days",
+    "dominantStool": "Most common stool group",
+    "highDgbsDays": "Days with DGBS 4-5",
+    "looseStoolDays": "Days with Bristol 6-7",
+    "notableFindings": "Points to note",
+    "noNotableFindings": "No repeated high values or major data gaps in the selected period.",
+    "weeklySummary": "Weekly summary",
+    "week": "Week",
+    "dataDays": "Data days",
+    "dailyLimitNote": "Daily rows are limited to the latest 30 days in this summary.",
+    "stoolCategory": {
+      "hard": "Hard (types 1-2)",
+      "normal": "Closer to typical range (types 3-5)",
+      "loose": "Loose (types 6-7)"
+    },
+    "findings": {
+      "missingDays": "{{days}} days in the selected period have no entries; interpretation may be uncertain.",
+      "highDgbsDays": "DGBS 4-5 was recorded on {{days}} day(s).",
+      "looseStoolDays": "Bristol 6-7 was recorded on {{days}} day(s).",
+      "type7Streak": "Bristol type 7 was recorded on {{days}} consecutive day(s).",
+      "highDgbsStreak": "DGBS 4-5 was recorded on {{days}} consecutive day(s)."
+    }
+  },
+  "insights": {
+    "title": "Insights",
+    "trendDown": "Gas scores decreased {{percent}}% compared to last week.",
+    "trendUp": "Gas scores increased {{percent}}% compared to last week.",
+    "correlation": "On days with {{group}} stools, gas scores are {{diff}} points higher.",
+    "stoolHard": "hard (type 1–2)",
+    "stoolLoose": "loose (type 6–7)",
+    "weekday": "{{day}}s tend to have the highest gas scores (avg {{avg}})."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 26, 2026",
+    "intro": "Kakamit is built on the principle of maximum privacy. It is a simple tool for tracking gut symptoms without collecting or processing personal data.",
+    "section1": {
+      "title": "1. What data is collected? — None.",
+      "body": "Kakamit does not collect any personal data, analytics, or tracking information. We do not use third-party tools or ad networks. We cannot identify our users."
+    },
+    "section2": {
+      "title": "2. Where is the data stored?",
+      "body": "All data you enter (DGBS scores, Bristol stool types, comments, and history) is stored exclusively on your own device using your browser's IndexedDB. This data is never sent to our servers, the cloud, or any third parties."
+    },
+    "section3": {
+      "title": "3. Technical implementation and network traffic",
+      "body": "Kakamit is a Progressive Web App (PWA). It only uses technically necessary cookies and browser storage (such as Service Workers and cache) to enable offline use and installation.\n\nWhen you visit kakamit.com, our hosting provider receives standard technical information (such as your IP address) that is required to deliver the application files to you. This information is not stored or used by Kakamit."
+    },
+    "section4": {
+      "title": "4. Data Export, Import, and Deletion",
+      "body": "Export: You can export all of your data as a JSON file (for backups) or a CSV file (for spreadsheets) at any time.\n\nImport: You can import a previously exported JSON or CSV file back into the app, on the same device or a new one. All processing happens locally in your browser.\n\nDeletion: You can delete your data by clearing your browser's site data or by uninstalling the app.\n\nImportant: Because your data never leaves your device, it cannot be recovered if you delete it or reset your browser."
+    },
+    "section5": {
+      "title": "5. Sharing and Third Parties",
+      "body": "We do not share, sell, or disclose any data. Your data is only ever shared if you personally choose to export and share it yourself (for example, with your doctor)."
+    },
+    "section6": {
+      "title": "6. Changes to this Privacy Policy",
+      "body": "Any changes to this Privacy Policy will be published on this page. We will notify you in the app of any significant changes."
+    },
+    "contactTitle": "Contact",
+    "contactBody": "For feedback, questions, or collaboration:",
+    "contactHandle": "X / Twitter: @KakamitApp"
+  }
+}

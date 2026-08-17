@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ui.searchTitle}} – FODMAP | Kakamit</title>
+<meta name="description" content="{{indexMetaDesc}}">
+<link rel="canonical" href="{{canonical}}">
+{{hreflang}}
+<link rel="icon" href="/kakamit.png">
+<link rel="stylesheet" href="/fodmap/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Literata:wght@600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Literata:wght@600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Literata:wght@600;700&display=swap"></noscript>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo-link"><img src="/kakamit.png" alt="Kakamit" class="logo"></a>
+    <nav class="header-nav">
+      <a href="/fodmap/{{lang}}/">FODMAP</a>
+    </nav>
+  </div>
+</header>
+
+<h1>{{ui.searchTitle}}</h1>
+<p class="subtitle">{{foodCountText}}</p>
+
+<input
+  type="search"
+  class="search-input"
+  placeholder="{{ui.searchPlaceholder}}"
+  id="fodmap-search"
+  autocomplete="off"
+>
+
+{{categoriesHtml}}
+
+<div class="cta">
+  <h2>{{ui.ctaTitle}}</h2>
+  <p>{{ui.ctaText}}</p>
+  <a href="/">{{ui.ctaButton}}</a>
+</div>
+
+<div class="disclaimer">
+  <p>{{disclaimer}}</p>
+</div>
+
+<div class="sources">
+  <p><strong>{{ui.sourcesTitle}}:</strong></p>
+  <ol>{{sourcesHtml}}</ol>
+</div>
+
+<div class="footer">
+  <p>&copy; 2026 Kakamit &middot; <a href="/">{{ui.ctaButton}}</a></p>
+</div>
+
+<script>
+(function(){
+  var input = document.getElementById('fodmap-search');
+  var items = document.querySelectorAll('[data-food]');
+  var sections = document.querySelectorAll('[data-category]');
+  input.addEventListener('input', function(){
+    var q = this.value.toLowerCase().trim();
+    items.forEach(function(el){
+      el.style.display = el.getAttribute('data-food').indexOf(q) !== -1 ? '' : 'none';
+    });
+    sections.forEach(function(sec){
+      var visible = sec.querySelectorAll('[data-food]:not([style*="display: none"])');
+      sec.style.display = visible.length > 0 ? '' : 'none';
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

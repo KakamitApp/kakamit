@@ -1,0 +1,773 @@
+{
+  "meta": {
+    "siteUrl": "https://kakamit.com",
+    "lastUpdated": "2026-06-24",
+    "disclaimer": {
+      "fi": "Tämä sivusto tarjoaa yleistä tietoa FODMAP-hiilihydraateista. Sisältö ei korvaa lääkärin tai laillistetun ravitsemusterapeutin neuvoja. FODMAP-rajoitusruokavalion aloittaminen tulisi tapahtua ammattilaisen ohjauksessa. Yksilölliset erot ovat suuria.",
+      "en": "This site provides general information about FODMAP carbohydrates. The content does not replace advice from a doctor or registered dietitian. A FODMAP elimination diet should be started under professional guidance. Individual tolerances vary greatly."
+    },
+    "sources": [
+      "Varney J, et al. FODMAPs: food composition, defining cutoff values and international application. J Gastroenterol Hepatol. 2017;32:159-166.",
+      "Gibson PR, Shepherd SJ. Food choice as a key management strategy for functional gastrointestinal symptoms. Am J Gastroenterol. 2012;107(5):657-666.",
+      "Barrett JS. How to institute the low-FODMAP diet. J Gastroenterol Hepatol. 2017;32:8-10.",
+      "Monash University Low FODMAP Diet App & Resources"
+    ],
+    "statusLabels": {
+      "fi": {
+        "green": "Matala FODMAP",
+        "yellow": "Kohtalainen FODMAP",
+        "red": "Korkea FODMAP"
+      },
+      "en": {
+        "green": "Low FODMAP",
+        "yellow": "Moderate FODMAP",
+        "red": "High FODMAP"
+      }
+    },
+    "ui": {
+      "fi": {
+        "searchTitle": "FODMAP-pikahaku",
+        "searchPlaceholder": "Hae ruoka-ainetta...",
+        "portionLabel": "Annoskoko",
+        "fodmapTypeLabel": "FODMAP-tyyppi",
+        "alternativesLabel": "Vaihtoehdot",
+        "categoryLabel": "Samassa kategoriassa",
+        "ctaTitle": "Haluatko seurata, miten ruoka-aineet vaikuttavat sinuun?",
+        "ctaText": "Kirjaa oireesi Kakamit-sovellukseen ja selvitä yksilölliset toleranssisi.",
+        "ctaButton": "Kokeile Kakamit-sovellusta",
+        "backToSearch": "Takaisin hakuun",
+        "sourcesTitle": "Lähteet",
+        "allFoods": "Kaikki ruoka-aineet",
+        "titleTemplate": "{{name}} ja FODMAP \u2013 sopiiko IBS-ruokavalioon? | Kakamit",
+        "metaDescTemplate": "{{name}} on {{statusLabelLower}} ruoka-aine ({{fodmapType}}). Katso annoskoot, vaihtoehdot ja lis\u00e4tietoa FODMAP-ruokavaliosta.",
+        "h1Template": "{{name}} ja FODMAP",
+        "foodCountText": "{{count}} ruoka-ainetta luokiteltu FODMAP-pitoisuuden mukaan."
+      },
+      "en": {
+        "searchTitle": "FODMAP Quick Lookup",
+        "searchPlaceholder": "Search for a food...",
+        "portionLabel": "Portion size",
+        "fodmapTypeLabel": "FODMAP type",
+        "alternativesLabel": "Alternatives",
+        "categoryLabel": "In the same category",
+        "ctaTitle": "Want to track how foods affect you?",
+        "ctaText": "Log your symptoms in the Kakamit app and discover your individual tolerances.",
+        "ctaButton": "Try the Kakamit app",
+        "backToSearch": "Back to search",
+        "sourcesTitle": "Sources",
+        "allFoods": "All foods",
+        "titleTemplate": "{{name}} and FODMAP \u2013 is it IBS-friendly? | Kakamit",
+        "metaDescTemplate": "{{name}} is a {{statusLabelLower}} food ({{fodmapType}}). View portion sizes, alternatives and learn more about the FODMAP diet.",
+        "h1Template": "{{name}} and FODMAP",
+        "foodCountText": "{{count}} foods classified by FODMAP content."
+      }
+    }
+  },
+  "categories": {
+    "vegetables": { "fi": "Vihannekset ja kasvikset", "en": "Vegetables" },
+    "fruits": { "fi": "Hedelmät ja marjat", "en": "Fruits & Berries" },
+    "grains": { "fi": "Viljat ja leipä", "en": "Grains & Bread" },
+    "dairy": { "fi": "Maitotuotteet", "en": "Dairy" },
+    "spices": { "fi": "Mausteet", "en": "Spices & Seasonings" },
+    "drinks": { "fi": "Juomat", "en": "Drinks" },
+    "sweeteners": { "fi": "Makeutusaineet", "en": "Sweeteners" },
+    "meats": { "fi": "Lihat, kala ja proteiinit", "en": "Meats, Fish & Proteins" },
+    "nuts_seeds": { "fi": "Pähkinät ja siemenet", "en": "Nuts & Seeds" },
+    "legumes": { "fi": "Palkokasvit", "en": "Legumes" }
+  },
+  "foods": [
+    {
+      "id": "garlic",
+      "category": "spices",
+      "status": "red",
+      "fi": {
+        "slug": "valkosipuli",
+        "name": "Valkosipuli",
+        "fodmapType": "Fruktaanit (oligosakkaridit)",
+        "portion": "Kaikki määrät",
+        "description": "Valkosipuli sisältää runsaasti fruktaaneja kaikissa muodoissaan. Valkosipuliöljyllä maustettu öljy on yleinen vaihtoehto.",
+        "alternatives": ["valkosipuliöljy", "ruohosipuli", "fenkoli"]
+      },
+      "en": {
+        "slug": "garlic",
+        "name": "Garlic",
+        "fodmapType": "Fructans (oligosaccharides)",
+        "portion": "All amounts",
+        "description": "Garlic contains high amounts of fructans in all forms. Garlic-infused oil is a common low-FODMAP alternative.",
+        "alternatives": ["garlic-infused oil", "chives", "fennel"]
+      }
+    },
+    {
+      "id": "onion",
+      "category": "vegetables",
+      "status": "red",
+      "fi": {
+        "slug": "sipuli",
+        "name": "Sipuli",
+        "fodmapType": "Fruktaanit (oligosakkaridit)",
+        "portion": "Kaikki määrät",
+        "description": "Sipuli on yksi yleisimmistä korkean FODMAP-pitoisuuden ruoka-aineista.",
+        "alternatives": ["kevätsipulin vihreä osa", "sipuliöljy", "ruohosipuli"]
+      },
+      "en": {
+        "slug": "onion",
+        "name": "Onion",
+        "fodmapType": "Fructans (oligosaccharides)",
+        "portion": "All amounts",
+        "description": "Onion is one of the most common high-FODMAP foods.",
+        "alternatives": ["scallions (green part only)", "onion-infused oil", "chives"]
+      }
+    },
+    {
+      "id": "milk",
+      "category": "dairy",
+      "status": "red",
+      "fi": {
+        "slug": "maito",
+        "name": "Maito (tavallinen)",
+        "fodmapType": "Laktoosi (disakkaridi)",
+        "portion": "Yli 1 dl",
+        "description": "Tavallinen lehmänmaito sisältää laktoosta.",
+        "alternatives": ["laktoositon maito", "kauramaito", "mantelimaito", "riisimaito"]
+      },
+      "en": {
+        "slug": "milk",
+        "name": "Milk (regular)",
+        "fodmapType": "Lactose (disaccharide)",
+        "portion": "More than 100 ml",
+        "description": "Regular cow's milk contains lactose.",
+        "alternatives": ["lactose-free milk", "oat milk", "almond milk", "rice milk"]
+      }
+    },
+    {
+      "id": "wheat-bread",
+      "category": "grains",
+      "status": "red",
+      "fi": {
+        "slug": "vehnaleipa",
+        "name": "Vehnäleipä",
+        "fodmapType": "Fruktaanit (oligosakkaridit)",
+        "portion": "Yli 1 viipale",
+        "description": "Vehnä sisältää fruktaaneja, jotka kertyvät suuremmissa annoksissa.",
+        "alternatives": ["kauraleipä", "gluteeniton leipä"]
+      },
+      "en": {
+        "slug": "wheat-bread",
+        "name": "Wheat Bread",
+        "fodmapType": "Fructans (oligosaccharides)",
+        "portion": "More than 1 slice",
+        "description": "Wheat contains fructans, which accumulate in larger portion sizes.",
+        "alternatives": ["oat bread", "gluten-free bread"]
+      }
+    },
+    {
+      "id": "apple",
+      "category": "fruits",
+      "status": "red",
+      "fi": {
+        "slug": "omena",
+        "name": "Omena",
+        "fodmapType": "Ylimääräinen fruktoosi + sorbitoli",
+        "portion": "Yli puolikas omena",
+        "description": "Omena sisältää sekä ylimääräistä fruktoosia että sorbitolia.",
+        "alternatives": ["kiivi", "appelsiini", "viinirypäleet", "mustikka"]
+      },
+      "en": {
+        "slug": "apple",
+        "name": "Apple",
+        "fodmapType": "Excess fructose + sorbitol",
+        "portion": "More than half an apple",
+        "description": "Apples contain both excess fructose and sorbitol.",
+        "alternatives": ["kiwi", "orange", "grapes", "blueberry"]
+      }
+    },
+    {
+      "id": "avocado",
+      "category": "fruits",
+      "status": "yellow",
+      "fi": {
+        "slug": "avokado",
+        "name": "Avokado",
+        "fodmapType": "Sorbitoli (polyoli)",
+        "portion": "Enintään 1/8 avokadoa (n. 30 g)",
+        "description": "Pieni määrä on yleensä hyvin siedettävä.",
+        "alternatives": ["oliivit", "tomaatti"]
+      },
+      "en": {
+        "slug": "avocado",
+        "name": "Avocado",
+        "fodmapType": "Sorbitol (polyol)",
+        "portion": "Up to 1/8 of an avocado (approx. 30g)",
+        "description": "A small amount is usually well tolerated.",
+        "alternatives": ["olives", "tomato"]
+      }
+    },
+    {
+      "id": "banana",
+      "category": "fruits",
+      "status": "yellow",
+      "fi": {
+        "slug": "banaani",
+        "name": "Banaani",
+        "fodmapType": "Fruktaanit (kypsässä) / resistentti tärkkelys (raakana)",
+        "portion": "Raaka: 1 kpl sopii. Kypsä: pienempi annos",
+        "description": "Kypsyysaste vaikuttaa merkittävästi fruktaanien määrään.",
+        "alternatives": ["kiivi", "mustikka"]
+      },
+      "en": {
+        "slug": "banana",
+        "name": "Banana",
+        "fodmapType": "Fructans (ripe) / resistant starch (unripe)",
+        "portion": "Unripe: 1 medium is fine. Ripe: smaller portion",
+        "description": "The ripeness level significantly affects the fructan content.",
+        "alternatives": ["kiwi", "blueberry"]
+      }
+    },
+    {
+      "id": "peas",
+      "category": "vegetables",
+      "status": "yellow",
+      "fi": {
+        "slug": "herne",
+        "name": "Herneet",
+        "fodmapType": "GOS + fruktaanit",
+        "portion": "Enintään n. 0,5 dl",
+        "description": "Pieni annos siedettävä, suuremmat määrät korkea.",
+        "alternatives": ["pinaatti", "kesäkurpitsa"]
+      },
+      "en": {
+        "slug": "peas",
+        "name": "Peas",
+        "fodmapType": "GOS + fructans",
+        "portion": "Up to approx. 50 ml",
+        "description": "Small portions are tolerable, larger amounts are high-FODMAP.",
+        "alternatives": ["spinach", "zucchini"]
+      }
+    },
+    {
+      "id": "rye-bread",
+      "category": "grains",
+      "status": "red",
+      "fi": {
+        "slug": "ruisleipa",
+        "name": "Ruisleipä",
+        "fodmapType": "Fruktaanit (oligosakkaridit)",
+        "portion": "Yli 1 pieni viipale",
+        "description": "Ruis sisältää merkittävästi fruktaaneja.",
+        "alternatives": ["kauraleipä", "tattarileipä"]
+      },
+      "en": {
+        "slug": "rye-bread",
+        "name": "Rye Bread",
+        "fodmapType": "Fructans (oligosaccharides)",
+        "portion": "More than 1 small slice",
+        "description": "Rye contains a significant amount of fructans.",
+        "alternatives": ["oat bread", "buckwheat bread"]
+      }
+    },
+    {
+      "id": "oat-bread",
+      "category": "grains",
+      "status": "green",
+      "fi": {
+        "slug": "kauraleipa",
+        "name": "Kauraleipä (100 %)",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Tavanomaiset annokset (2–3 viipaletta)",
+        "description": "Puhdas kauraleipä ilman vehnää tai ruista.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "oat-bread",
+        "name": "Oat Bread (100%)",
+        "fodmapType": "No significant amounts",
+        "portion": "Normal portions (2–3 slices)",
+        "description": "Pure oat bread without added wheat or rye.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "oat-porridge",
+      "category": "grains",
+      "status": "green",
+      "fi": {
+        "slug": "kaurapuuro",
+        "name": "Kaurapuuro",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Tavanomainen annos (n. 1 dl hiutaleita)",
+        "description": "Hyvin siedetty tavanomaisissa määrissä.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "oat-porridge",
+        "name": "Oat Porridge",
+        "fodmapType": "No significant amounts",
+        "portion": "Normal portion (approx. 100 ml dry oats)",
+        "description": "Well tolerated in standard amounts.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "rice",
+      "category": "grains",
+      "status": "green",
+      "fi": {
+        "slug": "riisi",
+        "name": "Riisi",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Kaikki tavanomaiset annokset",
+        "description": "Turvallinen hiilihydraattilähde.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "rice",
+        "name": "Rice",
+        "fodmapType": "No significant amounts",
+        "portion": "All normal portions",
+        "description": "A safe and reliable source of carbohydrates.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "potato",
+      "category": "vegetables",
+      "status": "green",
+      "fi": {
+        "slug": "peruna",
+        "name": "Peruna",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Kaikki tavanomaiset annokset",
+        "description": "Turvallinen peruselintarvike.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "potato",
+        "name": "Potato",
+        "fodmapType": "No significant amounts",
+        "portion": "All normal portions",
+        "description": "A safe and versatile staple food.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "tomato",
+      "category": "vegetables",
+      "status": "green",
+      "fi": {
+        "slug": "tomaatti",
+        "name": "Tomaatti",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Tavanomaiset annokset",
+        "description": "Tuore tomaatti ja kastikkeet (kunhan valmistettu ilman sipulia/valkosipulia).",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "tomato",
+        "name": "Tomato",
+        "fodmapType": "No significant amounts",
+        "portion": "Normal portions",
+        "description": "Fresh tomatoes and sauces (as long as they are made without onion/garlic).",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "cucumber",
+      "category": "vegetables",
+      "status": "green",
+      "fi": {
+        "slug": "kurkku",
+        "name": "Kurkku",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Kaikki tavanomaiset annokset",
+        "description": "Erinomainen matalan FODMAP-pitoisuuden vihannes.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "cucumber",
+        "name": "Cucumber",
+        "fodmapType": "No significant amounts",
+        "portion": "All normal portions",
+        "description": "An excellent low-FODMAP vegetable.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "coffee",
+      "category": "drinks",
+      "status": "green",
+      "fi": {
+        "slug": "kahvi",
+        "name": "Kahvi",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Tavanomaiset annokset",
+        "description": "Musta kahvi on ok, mutta lisätyn maidon valinta vaikuttaa kokonaisuuteen.",
+        "alternatives": ["tee (musta, vihreä)"]
+      },
+      "en": {
+        "slug": "coffee",
+        "name": "Coffee",
+        "fodmapType": "No significant amounts",
+        "portion": "Normal portions",
+        "description": "Black coffee is fine, but the choice of added milk affects the final FODMAP content.",
+        "alternatives": ["tea (black, green)"]
+      }
+    },
+    {
+      "id": "yogurt",
+      "category": "dairy",
+      "status": "yellow",
+      "fi": {
+        "slug": "jogurtti",
+        "name": "Jogurtti",
+        "fodmapType": "Laktoosi (disakkaridi)",
+        "portion": "Laktoositon: ok. Tavallinen: enintään n. 1 dl",
+        "description": "Laktoositon tai perinteinen kreikkalainen jogurtti ovat parempia vaihtoehtoja.",
+        "alternatives": ["laktoositon jogurtti", "kookosjogurtti"]
+      },
+      "en": {
+        "slug": "yogurt",
+        "name": "Yogurt",
+        "fodmapType": "Lactose (disaccharide)",
+        "portion": "Lactose-free: ok. Regular: max approx. 100 ml",
+        "description": "Lactose-free or traditional strained Greek yogurt are better alternatives.",
+        "alternatives": ["lactose-free yogurt", "coconut yogurt"]
+      }
+    },
+    {
+      "id": "bell-pepper",
+      "category": "vegetables",
+      "status": "green",
+      "fi": {
+        "slug": "paprika",
+        "name": "Paprika",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Kaikki tavanomaiset annokset",
+        "description": "Turvallinen ja matalan FODMAP-pitoisuuden vihannes.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "bell-pepper",
+        "name": "Bell Pepper",
+        "fodmapType": "No significant amounts",
+        "portion": "All normal portions",
+        "description": "A safe and reliable low-FODMAP vegetable.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "mushrooms",
+      "category": "vegetables",
+      "status": "red",
+      "fi": {
+        "slug": "sienet",
+        "name": "Sienet",
+        "fodmapType": "Mannitoli (polyoli)",
+        "portion": "Korkea useimmilla lajikkeilla jo pienissä määrissä",
+        "description": "Useimmat yleiset sienet (kuten herkkusienet) sisältävät runsaasti mannitolia.",
+        "alternatives": ["kesäkurpitsa", "munakoiso"]
+      },
+      "en": {
+        "slug": "mushrooms",
+        "name": "Mushrooms",
+        "fodmapType": "Mannitol (polyol)",
+        "portion": "High in most varieties even in small amounts",
+        "description": "Most common mushrooms (like button mushrooms) contain high amounts of mannitol.",
+        "alternatives": ["zucchini", "eggplant"]
+      }
+    },
+    {
+      "id": "honey",
+      "category": "sweeteners",
+      "status": "red",
+      "fi": {
+        "slug": "hunaja",
+        "name": "Hunaja",
+        "fodmapType": "Ylimääräinen fruktoosi",
+        "portion": "Kaikki määrät",
+        "description": "Sisältää merkittävästi enemmän fruktoosia kuin glukoosia.",
+        "alternatives": ["vaahterasiirappi", "tavallinen sokeri", "stevia"]
+      },
+      "en": {
+        "slug": "honey",
+        "name": "Honey",
+        "fodmapType": "Excess fructose",
+        "portion": "All amounts",
+        "description": "Contains significantly more fructose than glucose.",
+        "alternatives": ["maple syrup", "regular sugar", "stevia"]
+      }
+    },
+    {
+      "id": "carrot",
+      "category": "vegetables",
+      "status": "green",
+      "fi": {
+        "slug": "porkkana",
+        "name": "Porkkana",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Kaikki tavanomaiset annokset",
+        "description": "Erinomainen ja turvallinen matalan FODMAP-pitoisuuden vihannes.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "carrot",
+        "name": "Carrot",
+        "fodmapType": "No significant amounts",
+        "portion": "All normal portions",
+        "description": "An excellent and safe low-FODMAP vegetable.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "zucchini",
+      "category": "vegetables",
+      "status": "green",
+      "fi": {
+        "slug": "kesakurpitsa",
+        "name": "Kesäkurpitsa",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Kaikki tavanomaiset annokset",
+        "description": "Monipuolinen ja turvallinen vihannes arkeen.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "zucchini",
+        "name": "Zucchini",
+        "fodmapType": "No significant amounts",
+        "portion": "All normal portions",
+        "description": "A versatile and safe everyday vegetable.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "spinach",
+      "category": "vegetables",
+      "status": "green",
+      "fi": {
+        "slug": "pinaatti",
+        "name": "Pinaatti",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Tavanomaiset annokset",
+        "description": "Turvallinen ja ravintorikas lehtivihannes.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "spinach",
+        "name": "Spinach",
+        "fodmapType": "No significant amounts",
+        "portion": "Normal portions",
+        "description": "A safe and nutrient-dense leafy green.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "lettuce",
+      "category": "vegetables",
+      "status": "green",
+      "fi": {
+        "slug": "salaatti",
+        "name": "Salaatti",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Kaikki määrät",
+        "description": "Lähes kaikki salaattityypit ovat luonnostaan hyvin matala-FODMAPisia.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "lettuce",
+        "name": "Lettuce",
+        "fodmapType": "No significant amounts",
+        "portion": "All amounts",
+        "description": "Almost all types of lettuce are naturally very low in FODMAPs.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "broccoli",
+      "category": "vegetables",
+      "status": "yellow",
+      "fi": {
+        "slug": "parsakaali",
+        "name": "Parsakaali",
+        "fodmapType": "Fruktaanit",
+        "portion": "Enintään n. 1/2 kpl kukintoa (n. 75 g)",
+        "description": "Pieni määrä kukintoja sopii yleensä hyvin, mutta varret sisältävät enemmän fruktaaneja.",
+        "alternatives": ["pinaatti"]
+      },
+      "en": {
+        "slug": "broccoli",
+        "name": "Broccoli",
+        "fodmapType": "Fructans",
+        "portion": "Up to approx. 1/2 cup of florets (approx. 75g)",
+        "description": "Small amounts of florets are usually well tolerated, but the stalks contain more fructans.",
+        "alternatives": ["spinach"]
+      }
+    },
+    {
+      "id": "strawberry",
+      "category": "fruits",
+      "status": "green",
+      "fi": {
+        "slug": "mansikka",
+        "name": "Mansikka",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Tavanomaiset annokset (n. 10–15 kpl)",
+        "description": "Turvallinen ja erittäin hyvin siedetty marja.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "strawberry",
+        "name": "Strawberry",
+        "fodmapType": "No significant amounts",
+        "portion": "Normal portions (approx. 10–15 berries)",
+        "description": "A safe and very well-tolerated berry.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "blueberry",
+      "category": "fruits",
+      "status": "green",
+      "fi": {
+        "slug": "mustikka",
+        "name": "Mustikka",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "Tavanomaiset annokset",
+        "description": "Erinomainen ja vatsaystävällinen vaihtoehto.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "blueberry",
+        "name": "Blueberry",
+        "fodmapType": "No significant amounts",
+        "portion": "Normal portions",
+        "description": "An excellent and gut-friendly option.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "kiwi",
+      "category": "fruits",
+      "status": "green",
+      "fi": {
+        "slug": "kiivi",
+        "name": "Kiivi",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "1–2 kpl",
+        "description": "Turvallinen hedelmä, joka voi myös tukea ruoansulatusta.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "kiwi",
+        "name": "Kiwi",
+        "fodmapType": "No significant amounts",
+        "portion": "1–2 pieces",
+        "description": "A safe fruit that can also aid digestion.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "orange",
+      "category": "fruits",
+      "status": "green",
+      "fi": {
+        "slug": "appelsiini",
+        "name": "Appelsiini",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "1 kpl",
+        "description": "Sitrushedelmät ovat yleensä erittäin turvallisia.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "orange",
+        "name": "Orange",
+        "fodmapType": "No significant amounts",
+        "portion": "1 piece",
+        "description": "Citrus fruits are generally very safe.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "chicken",
+      "category": "meats",
+      "status": "green",
+      "fi": {
+        "slug": "kana",
+        "name": "Kana (maustamaton)",
+        "fodmapType": "FODMAP-vapaa",
+        "portion": "Kaikki määrät",
+        "description": "Kaikki maustamattomat lihat, kala ja kana ovat luonnostaan täysin FODMAP-vapaita, sillä ne eivät sisällä hiilihydraatteja.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "chicken",
+        "name": "Chicken (plain)",
+        "fodmapType": "FODMAP-free",
+        "portion": "All amounts",
+        "description": "All unseasoned meats, fish, and poultry are naturally completely FODMAP-free because they contain no carbohydrates.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "beef",
+      "category": "meats",
+      "status": "green",
+      "fi": {
+        "slug": "naudanliha",
+        "name": "Naudanliha (maustamaton)",
+        "fodmapType": "FODMAP-vapaa",
+        "portion": "Kaikki määrät",
+        "description": "Turvallinen ja luonnostaan FODMAP-vapaa proteiininlähde.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "beef",
+        "name": "Beef (plain)",
+        "fodmapType": "FODMAP-free",
+        "portion": "All amounts",
+        "description": "A safe and naturally FODMAP-free protein source.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "egg",
+      "category": "meats",
+      "status": "green",
+      "fi": {
+        "slug": "muna",
+        "name": "Kananmuna",
+        "fodmapType": "FODMAP-vapaa",
+        "portion": "Kaikki määrät",
+        "description": "Turvallinen ja puhdas proteiininlähde, joka ei sisällä hiilihydraatteja.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "egg",
+        "name": "Egg",
+        "fodmapType": "FODMAP-free",
+        "portion": "All amounts",
+        "description": "A safe and pure protein source that contains zero carbohydrates.",
+        "alternatives": []
+      }
+    },
+    {
+      "id": "peanut",
+      "category": "nuts_seeds",
+      "status": "green",
+      "fi": {
+        "slug": "maapahkina",
+        "name": "Maapähkinä",
+        "fodmapType": "Ei merkittäviä määriä",
+        "portion": "n. 30–40 g",
+        "description": "Matalan FODMAP-pitoisuuden pähkinä kohtuullisissa annoksissa kulutettuna.",
+        "alternatives": []
+      },
+      "en": {
+        "slug": "peanut",
+        "name": "Peanut",
+        "fodmapType": "No significant amounts",
+        "portion": "Approx. 30–40g",
+        "description": "A low-FODMAP nut when consumed in moderate portion sizes.",
+        "alternatives": []
+      }
+    }
+  ]
+}

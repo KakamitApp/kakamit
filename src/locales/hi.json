@@ -1,0 +1,309 @@
+{
+  "header": {
+    "title": "kakamit",
+    "toggleTheme": "थीम बदलें",
+    "changeLanguage": "भाषा बदलें",
+    "signedInAs": "के रूप में साइन इन",
+    "logout": "लॉग आउट",
+    "demoMessage": "आंतों की भलाई की निजी ट्रैकिंग"
+  },
+  "form": {
+    "title": "यह कैसा था?",
+    "description": "स्टूल स्केल के अनुसार अपने स्टूल प्रकार को लॉग करें।",
+    "valueLabel": "स्टूल प्रकार",
+    "commentLabel": "टिप्पणी (वैकल्पिक)",
+    "commentPlaceholder": "कोई अतिरिक्त नोट्स या अवलोकन?",
+    "saveButton": "प्रविष्टि सहेजें",
+    "savingButton": "सहेज रहा है..."
+  },
+  "chart": {
+    "title": "आंत स्वास्थ्य",
+    "description": "आपके दैनिक औसत स्टूल प्रकार पर एक नज़र।",
+    "timePeriodPlaceholder": "समय अवधि",
+    "today": "आज",
+    "last7Days": "पिछले 7 दिन",
+    "last30Days": "पिछले 30 दिन",
+    "last90Days": "पिछले 90 दिन",
+    "aiSummaryTitle": "एआई सुविधाएँ",
+    "aiProPlaceholder": "एआई सुविधाएँ प्रो संस्करण में उपलब्ध हैं।",
+    "summaryError": "प्रवृत्ति सारांश उत्पन्न नहीं किया जा सका।",
+    "noData": "चयनित अवधि के लिए कोई डेटा उपलब्ध नहीं है।",
+    "timePeriodPrefix": "पिछले",
+    "timePeriodSuffix": "दिन",
+    "stoolType": "स्टूल प्रकार",
+    "dailyEvaluation": "आंतों की गैस"
+  },
+  "list": {
+    "edit": "संपादित करें",
+    "editEntryTitle": "प्रविष्टि संपादित करें",
+    "title": "आपकी प्रविष्टियाँ",
+    "description": "आपकी आंत गतिविधि का एक पूरा लॉग।",
+    "storageInfo": {
+      "label": "डेटा भंडारण:",
+      "text": "उपयोगकर्ता द्वारा दर्ज किया गया सभी डेटा (स्टूल और गैस प्रविष्टियाँ) केवल ब्राउज़र के IndexedDB में संग्रहीत होता है। इसका मतलब है कि डेटा केवल उस डिवाइस और ब्राउज़र पर उपलब्ध है जिस पर इसे दर्ज किया गया था और यह डिवाइसों के बीच सिंक्रनाइज़ नहीं होता है।"
+    },
+    "exportDataButton": "डेटा निर्यात करें",
+    "exportCsvButton": "Export CSV",
+    "noEntries": "आपके पास अभी तक कोई प्रविष्टि नहीं है। आरंभ करने के लिए ऊपर एक जोड़ें!",
+    "noComment": "कोई टिप्पणी नहीं",
+    "aiSuggestion": "प्रो संस्करण में एआई सुझाव उपलब्ध है।",
+    "delete": "हटाएं",
+    "confirmDeleteTitle": "क्या आप निश्चित हैं?",
+    "confirmDeleteDesc": "यह क्रिया पूर्ववत नहीं की जा सकती। यह इस प्रविष्टि को स्थायी रूप से हटा देगा।",
+    "cancel": "रद्द करें",
+    "suggestionsReadyTitle": "सुझाव तैयार हैं",
+    "suggestionsReadyDesc": "एआई ने कुछ प्रविष्टियों की पहचान की है जिन्हें आप छाँटने पर विचार कर सकते हैं।",
+    "allGoodTitle": "सब ठीक है!",
+    "allGoodDesc": "एआई को हटाने के लिए कोई स्पष्ट प्रविष्टि नहीं मिली।",
+    "errorTitle": "त्रुटि",
+    "errorDesc": "एआई सुझाव प्राप्त नहीं किए जा सके।",
+    "evaluationEntriesTitle": "दैनिक गैस",
+    "entriesForDate": "के लिए प्रविष्टियाँ",
+    "reportButton": "PDF summary",
+    "importDataButton": "Import Data",
+    "importConfirmTitle": "Import data?",
+    "importConfirmDesc": "Found {{count}} valid entries. They will be merged into your existing data (entries with the same ID are replaced).",
+    "importSuccess": "Imported {{count}} entries.",
+    "importSkipped": "{{count}} entries were skipped (invalid or unrecognized).",
+    "importError": "Could not read the file. Make sure it is a valid Kakamit JSON or CSV export.",
+    "importEmpty": "No valid entries found in the file."
+  },
+  "toast": {
+    "entryUpdated": "प्रविष्टि अपडेट की गई।",
+    "success": "सफलता",
+    "entrySaved": "प्रविष्टि स्थानीय रूप से सहेजी गई।",
+    "entryDeleted": "प्रविष्टि हटाई गई।",
+    "error": "त्रुटि",
+    "saveError": "प्रविष्टियों को स्थानीय संग्रहण में सहेजा नहीं जा सका।"
+  },
+  "footer": {
+    "rights": "सर्वाधिकार सुरक्षित।",
+    "aboutLink": "के बारे में",
+    "fodmapLink": "FODMAP गाइड",
+    "featuresLink": "Features",
+    "privacyLink": "Privacy"
+  },
+  "selection": {
+    "typeLabel": "प्रकार",
+    "type1": "अलग-अलग कठोर गांठें, जैसे मेवे (पार करना मुश्किल)",
+    "type2": "सॉसेज के आकार का, लेकिन ढेलेदार",
+    "type3": "एक सॉसेज की तरह लेकिन इसकी सतह पर दरारें हैं",
+    "type4": "एक सॉसेज या साँप की तरह, चिकना और मुलायम (औसत मल)",
+    "type5": "स्पष्ट कटे हुए किनारों के साथ नरम बूँदें",
+    "type6": "फटे हुए किनारों के साथ रोएंदार टुकड़े, एक गूदेदार मल (दस्त)",
+    "type7": "पानीदार, कोई ठोस टुकड़े नहीं, पूरी तरह से तरल (दस्त)"
+  },
+  "about": {
+    "title": "काकामिट की कहानी",
+    "p1": "काकामिट एक पिता और पुत्र के बीच एक अत्यंत गंभीर आवश्यकता से पैदा हुआ था, जो गोज़ के हास्य के दो दोस्त थे: दैनिक मल त्याग को ट्रैक करने का एक स्पष्ट और सरल तरीका - क्योंकि हर इंच मायने रखता है। काकामिट नाम, निश्चित रूप से, एक फिनिश शब्द का खेल है, जो 'कक्का' (पूप) और 'मिटॉस' (माप) शब्दों को जोड़ता है - इसलिए काकामिट!",
+    "p2": "हास्य के साथ, लेकिन गंभीरता से: हम सभी का पेट कभी-कभी खराब हो जाता है, गैस एक वास्तविक खतरा है, और शौचालय की यात्राएं रहस्यमय (और दर्दनाक) अनुभव हो सकती हैं। किसी बच्चे या किसी प्रियजन की आंतों की बीमारी की निगरानी करने की आवश्यकता का उल्लेख नहीं करना। हम इन क्षणों को हल्के में नहीं लेते हैं। हम कुछ अलग बनाना चाहते थे। एक उपकरण जो एक चीज़ पर ध्यान केंद्रित करता है और उसे बहुत अच्छी तरह से करता है - वैज्ञानिक सटीकता के साथ स्टूल प्रकारों को लॉग करना।",
+    "p3": "हमारा मिशन एक निजी, उपयोगकर्ता-अनुकूल, और बेशर्मी से सीधा उपकरण प्रदान करना है जो सभी को अपने पाचन स्वास्थ्य की निगरानी करने में सशक्त बनाता है। हम सरल और प्रभावी ट्रैकिंग प्रदान करते हैं - ताकि आप जीवन के अन्य, कम बदबूदार मामलों पर ध्यान केंद्रित कर सकें। हमारी यात्रा का हिस्सा बनने के लिए धन्यवाद - और फ्लश करना याद रखें!",
+    "backButton": "ट्रैकिंग पर वापस जाएं",
+    "generateTestData": "परीक्षण डेटा उत्पन्न करें"
+  },
+  "dailyEvaluation": {
+    "title": "पिछले 24 घंटों में आपने गैस के बोझ को कितना बड़ा महसूस किया?",
+    "description": "1-5 के पैमाने पर मूल्यांकन करें।",
+    "linkText": "Daily Gas Burden Scale (DGBS) के बारे में और पढ़ें।",
+    "commentLabel": "टिप्पणी (वैकल्पिक)",
+    "commentPlaceholder": "कोई अतिरिक्त नोट्स या अवलोकन?"
+  },
+  "streak": {
+    "days": "लगातार {{days}} दिन",
+    "day1": "1 दिन दर्ज",
+    "firstEntry": "पहली प्रविष्टि!",
+    "milestone7": "एक सप्ताह पूरा!",
+    "milestone14": "लगातार 2 सप्ताह!",
+    "milestone30": "एक महीना पूरा!",
+    "milestone60": "लगातार 2 महीने!",
+    "milestone90": "लगातार 3 महीने!",
+    "milestone180": "आधा साल!",
+    "milestone365": "पूरा एक साल!",
+    "newRecord": "नया रिकॉर्ड: {{days}} दिन!",
+    "startNew": "अपनी लगातार श्रृंखला जारी रखने के लिए आज दर्ज करें",
+    "record": "रिकॉर्ड"
+  },
+  "dgbs": {
+    "title": "Daily Gas Burden Scale (DGBS)",
+    "p1": "Daily Gas Burden Scale (DGBS) आंतों की गैस की दैनिक आवृत्ति का मूल्यांकन करने के लिए एक वैज्ञानिक उपकरण है। नीचे प्रत्येक स्तर के लिए परिभाषाएं दी गई हैं।",
+    "levels": {
+      "level1": {
+        "title": "स्तर 1: कोई गैस बोझ नहीं",
+        "description": "आंतों की गैस से कोई महत्वपूर्ण बोझ नहीं।"
+      },
+      "level2": {
+        "title": "स्तर 2: हल्का गैस बोझ",
+        "description": "हल्का बोझ जो दैनिक गतिविधियों में महत्वपूर्ण रूप से हस्तक्षेप नहीं करता है।"
+      },
+      "level3": {
+        "title": "स्तर 3: मध्यम गैस बोझ",
+        "description": "मध्यम बोझ जो कभी-कभी ध्यान आकर्षित करता है लेकिन गतिविधियों को सीमित नहीं करता है।"
+      },
+      "level4": {
+        "title": "स्तर 4: महत्वपूर्ण गैस बोझ",
+        "description": "महत्वपूर्ण बोझ जो सामान्य गतिविधियों में हस्तक्षेप करता है।"
+      },
+      "level5": {
+        "title": "स्तर 5: बहुत अधिक गैस बोझ",
+        "description": "बहुत अधिक बोझ जो जीवन और/या सामाजिक स्थितियों में स्पष्ट रूप से हस्तक्षेप करता है।"
+      }
+    }
+  },
+  "features": {
+    "title": "Features",
+    "hero": {
+      "title": "Kakamit helps you track gut health privately.",
+      "subtitle": "Log stool types, gas burden, and personal notes — all data stays on your device.",
+      "ctaStart": "Start tracking",
+      "ctaPrivacy": "Read about privacy"
+    },
+    "main": {
+      "bristol": {
+        "title": "Bristol Scale",
+        "desc": "Track stool types on a 1–7 scale."
+      },
+      "dgbs": {
+        "title": "Daily Gas Burden Scale",
+        "desc": "Evaluate daily gas burden on a simple 1–5 scale."
+      },
+      "log": {
+        "title": "Private Log",
+        "desc": "Add comments, edit entries, and export data as JSON if needed."
+      }
+    },
+    "why": {
+      "title": "Why Kakamit?",
+      "f1": "For quick daily logging",
+      "f2": "For understanding long-term symptoms",
+      "f3": "For preparing for doctor visits",
+      "f4": "For keeping sensitive data on your own device"
+    },
+    "privacy": {
+      "title": "Your data doesn't leave your device.",
+      "b1": "No user accounts",
+      "b2": "No analytics",
+      "b3": "No advertising",
+      "b4": "No cloud sync",
+      "b5": "Data is stored in your browser's IndexedDB database"
+    },
+    "table": {
+      "title": "Features",
+      "hFeature": "Feature",
+      "hStatus": "Status",
+      "active": "Active",
+      "planned": "Planned",
+      "f1": "DGBS gas burden evaluation",
+      "f2": "Bristol stool tracking",
+      "f3": "Entry comments",
+      "f4": "Edit and delete entries",
+      "f5": "Trends and charts",
+      "f6": "JSON & CSV export & import",
+      "f7": "13 languages",
+      "f8": "Offline PWA",
+      "f9": "Printable PDF summary for doctor visits",
+      "f10": "Local encryption"
+    },
+    "roadmap": {
+      "title": "Coming Next",
+      "r1": "Encrypted privacy mode",
+      "r2": "Encrypted backups",
+      "r3": "Auto-lock",
+      "r4": "Password changes",
+      "r5": "Biometric unlock later"
+    },
+    "trust": "We built Kakamit with privacy first. It doesn't try to collect your data — it helps you understand your well-being."
+  },
+  "report": {
+    "title": "Kakamit report summary",
+    "back": "Back to tracking",
+    "periodLabel": "Period",
+    "period7": "Last 7 days",
+    "period30": "Last 30 days",
+    "period90": "Last 90 days",
+    "printButton": "Save as PDF",
+    "loading": "Loading report...",
+    "noData": "No entries available for the selected period.",
+    "generatedAt": "Generated",
+    "totalEntries": "Total entries",
+    "stoolEntries": "Stool entries",
+    "dgbsEntries": "Gas entries",
+    "stoolAverage": "Bristol average",
+    "dgbsAverage": "DGBS average",
+    "stoolDistribution": "Bristol distribution",
+    "dgbsDistribution": "DGBS distribution",
+    "level": "Level",
+    "dailySummary": "Daily summary",
+    "date": "Date",
+    "stoolValues": "Stool values",
+    "dgbsValues": "DGBS values",
+    "comments": "Comments",
+    "disclaimerTitle": "Important:",
+    "disclaimerBody": "This is not a diagnostic report or medical advice. It is based only on data the user has entered into Kakamit.",
+    "privacyNote": "The report is generated locally in the browser. Data is not sent to Kakamit, a server, or the cloud.",
+    "clinicalSummary": "Clinical summary",
+    "dataCoverage": "Days with data",
+    "missingDays": "Missing days",
+    "dominantStool": "Most common stool group",
+    "highDgbsDays": "Days with DGBS 4-5",
+    "looseStoolDays": "Days with Bristol 6-7",
+    "notableFindings": "Points to note",
+    "noNotableFindings": "No repeated high values or major data gaps in the selected period.",
+    "weeklySummary": "Weekly summary",
+    "week": "Week",
+    "dataDays": "Data days",
+    "dailyLimitNote": "Daily rows are limited to the latest 30 days in this summary.",
+    "stoolCategory": {
+      "hard": "Hard (types 1-2)",
+      "normal": "Closer to typical range (types 3-5)",
+      "loose": "Loose (types 6-7)"
+    },
+    "findings": {
+      "missingDays": "{{days}} days in the selected period have no entries; interpretation may be uncertain.",
+      "highDgbsDays": "DGBS 4-5 was recorded on {{days}} day(s).",
+      "looseStoolDays": "Bristol 6-7 was recorded on {{days}} day(s).",
+      "type7Streak": "Bristol type 7 was recorded on {{days}} consecutive day(s).",
+      "highDgbsStreak": "DGBS 4-5 was recorded on {{days}} consecutive day(s)."
+    }
+  },
+  "insights": {
+    "title": "Insights",
+    "trendDown": "Gas scores decreased {{percent}}% compared to last week.",
+    "trendUp": "Gas scores increased {{percent}}% compared to last week.",
+    "correlation": "On days with {{group}} stools, gas scores are {{diff}} points higher.",
+    "stoolHard": "hard (type 1–2)",
+    "stoolLoose": "loose (type 6–7)",
+    "weekday": "{{day}}s tend to have the highest gas scores (avg {{avg}})."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 26, 2026",
+    "intro": "Kakamit is built on the principle of maximum privacy. It is a simple tool for tracking gut symptoms without collecting or processing personal data.",
+    "section1": {
+      "title": "1. What data is collected? — None.",
+      "body": "Kakamit does not collect any personal data, analytics, or tracking information. We do not use third-party tools or ad networks. We cannot identify our users."
+    },
+    "section2": {
+      "title": "2. Where is the data stored?",
+      "body": "All data you enter (DGBS scores, Bristol stool types, comments, and history) is stored exclusively on your own device using your browser's IndexedDB. This data is never sent to our servers, the cloud, or any third parties."
+    },
+    "section3": {
+      "title": "3. Technical implementation and network traffic",
+      "body": "Kakamit is a Progressive Web App (PWA). It only uses technically necessary cookies and browser storage (such as Service Workers and cache) to enable offline use and installation.\n\nWhen you visit kakamit.com, our hosting provider receives standard technical information (such as your IP address) that is required to deliver the application files to you. This information is not stored or used by Kakamit."
+    },
+    "section4": {
+      "title": "4. Data Export, Import, and Deletion",
+      "body": "Export: You can export all of your data as a JSON file (for backups) or a CSV file (for spreadsheets) at any time.\n\nImport: You can import a previously exported JSON or CSV file back into the app, on the same device or a new one. All processing happens locally in your browser.\n\nDeletion: You can delete your data by clearing your browser's site data or by uninstalling the app.\n\nImportant: Because your data never leaves your device, it cannot be recovered if you delete it or reset your browser."
+    },
+    "section5": {
+      "title": "5. Sharing and Third Parties",
+      "body": "We do not share, sell, or disclose any data. Your data is only ever shared if you personally choose to export and share it yourself (for example, with your doctor)."
+    },
+    "section6": {
+      "title": "6. Changes to this Privacy Policy",
+      "body": "Any changes to this Privacy Policy will be published on this page. We will notify you in the app of any significant changes."
+    },
+    "contactTitle": "Contact",
+    "contactBody": "For feedback, questions, or collaboration:",
+    "contactHandle": "X / Twitter: @KakamitApp"
+  }
+}

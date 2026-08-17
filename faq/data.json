@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "ui": {
+      "fi": {
+        "title": "Usein Kysytyt Kysymykset (FAQ)",
+        "metaDesc": "Vastauksia yleisimpiin kysymyksiin Kakamit-sovelluksesta, suoliston terveydestä, ilmavaivoista ja tietosuojasta.",
+        "categoryApp": "Kakamit ja sen erikoisuus",
+        "categoryGut": "Yleistä suoliston terveydestä",
+        "categoryUsage": "Sovelluksen käyttö",
+        "categoryOther": "Muut kysymykset",
+        "backToApp": "Takaisin sovellukseen",
+        "disclaimer": "Kakamit ei ole lääketieteellinen laite eikä korvaa lääkärin tekemää diagnoosia tai hoitoa. Sivusto tarjoaa yleistä tietoa suoliston hyvinvoinnin seurannan tueksi."
+      },
+      "en": {
+        "title": "Frequently Asked Questions (FAQ)",
+        "metaDesc": "Answers to common questions about the Kakamit app, gut health, gas symptoms, and privacy.",
+        "categoryApp": "Kakamit and what makes it special",
+        "categoryGut": "General gut health",
+        "categoryUsage": "Using the app",
+        "categoryOther": "Other questions",
+        "backToApp": "Back to app",
+        "disclaimer": "Kakamit is not a medical device and does not replace diagnosis or treatment by a healthcare professional. This page provides general information to support gut health tracking."
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "what-is-dgbs",
+      "category": "app",
+      "fi": {
+        "q": "Mikä on DGBS (Daily Gas Burden Scale)?",
+        "a": "DGBS on Kakamitin keskeinen mittari kaasuoireiden seurantaan. Se on yksinkertainen 1–5-asteikko, jolla arvioit, kuinka paljon ilmavaivat ja turvotus häiritsivät sinua viimeisen 24 tunnin aikana: 1 = Ei haittaa ollenkaan, 5 = Erittäin hankalaa."
+      },
+      "en": {
+        "q": "What is DGBS (Daily Gas Burden Scale)?",
+        "a": "DGBS is Kakamit's core metric for tracking gas symptoms. It's a simple 1–5 scale to rate how much gas and bloating bothered you in the past 24 hours: 1 = Not bothersome at all, 5 = Extremely bothersome."
+      }
+    },
+    {
+      "id": "data-storage",
+      "category": "app",
+      "fi": {
+        "q": "Missä kaikki datani säilytetään?",
+        "a": "Täysi yksityisyys on Kakamitin perusperiaate. Kaikki data tallentuu yksinomaan sinun omalle laitteellesi selaimen IndexedDB-tietokantaan. Mitään tietoja ei lähetetä ulkopuolisille palvelimille, pilveen tai kolmansille osapuolille. Kakamit ei kerää mitään analytiikkaa (ei Google Analyticsia tai muita seurantatyökaluja). Sovellus ei seuraa käyttäjiään millään tavalla."
+      },
+      "en": {
+        "q": "Where is all my data stored?",
+        "a": "Complete privacy is Kakamit's core principle. All data is stored exclusively on your own device in the browser's IndexedDB database. No data is sent to external servers, the cloud, or third parties. Kakamit does not collect any analytics (no Google Analytics or other tracking tools). The app does not track its users in any way."
+      }
+    },
+    {
+      "id": "bristol-scale",
+      "category": "gut",
+      "fi": {
+        "q": "Mikä on Bristol Stool Scale?",
+        "a": "Bristol Stool Form Scale on lääketieteellinen työkalu, joka luokittelee ulosteen muodon ja rakenteen seitsemään eri tyyppiin. Tyypit 3 ja 4 ovat ihanteellisia ja kertovat hyvin toimivasta vatsasta."
+      },
+      "en": {
+        "q": "What is the Bristol Stool Scale?",
+        "a": "The Bristol Stool Form Scale is a medical tool that classifies stool shape and consistency into seven types. Types 3 and 4 are ideal and indicate a well-functioning gut."
+      }
+    },
+    {
+      "id": "normal-gas-amount",
+      "category": "gut",
+      "fi": {
+        "q": "Kuinka paljon kaasua on normaalia?",
+        "a": "Terveellä aikuisella on normaalisti noin 10–25 kaasunpäästöä päivässä. Jos kaasut aiheuttavat sinulle merkittävää haittaa tai kipua, DGBS-seuranta auttaa hahmottamaan oireiden säännöllisyyttä."
+      },
+      "en": {
+        "q": "How much gas is normal?",
+        "a": "A healthy adult normally passes gas about 10–25 times per day. If gas causes you significant discomfort or pain, DGBS tracking helps you understand the regularity of your symptoms."
+      }
+    },
+    {
+      "id": "what-causes-gas",
+      "category": "gut",
+      "fi": {
+        "q": "Mitä aiheuttaa suolikaasuja?",
+        "a": "Yleisimpiä triggereitä eli oireiden aiheuttajia ovat tietyt hiilihydraatit (FODMAP), maitotuotteet, pavut, sipuli, kaali sekä henkinen stressi."
+      },
+      "en": {
+        "q": "What causes intestinal gas?",
+        "a": "The most common triggers are certain carbohydrates (FODMAPs), dairy products, beans, onions, cabbage, and mental stress."
+      }
+    },
+    {
+      "id": "diet-gut-connection",
+      "category": "gut",
+      "fi": {
+        "q": "Miten ruokavalio vaikuttaa suoliston terveyteen?",
+        "a": "Ruokavalio on tärkein yksittäinen tekijä suoliston hyvinvoinnissa. Hyvä uutinen on, että muutokset ruokavaliossa näkyvät vatsan toiminnassa usein nopeasti, jo 1–3 päivässä."
+      },
+      "en": {
+        "q": "How does diet affect gut health?",
+        "a": "Diet is the single most important factor in gut health. The good news is that dietary changes often show effects on gut function quickly, within just 1–3 days."
+      }
+    },
+    {
+      "id": "what-is-fodmap",
+      "category": "gut",
+      "fi": {
+        "q": "Mikä on FODMAP-ruokavalio?",
+        "a": "Se on tieteellisesti tutkittu hoitomuoto ärtyvän suolen oireyhtymän (IBS) oireisiin. Ruokavaliossa vähennetään tilapäisesti tiettyjen huonosti imeytyvien hiilihydraattien määrää vatsan rauhoittamiseksi."
+      },
+      "en": {
+        "q": "What is the FODMAP diet?",
+        "a": "It is a scientifically researched treatment for irritable bowel syndrome (IBS) symptoms. The diet temporarily reduces certain poorly absorbed carbohydrates to calm the gut."
+      }
+    },
+    {
+      "id": "how-to-track",
+      "category": "usage",
+      "fi": {
+        "q": "Miten kannattaa seurata suolistoa?",
+        "a": "Parhaat ja selkeimmät tulokset saat, kun otat rutiiniksi kirjata päivittäin vähintään Bristol-ulostetyypin sekä DGBS-arvon kaasun määrälle."
+      },
+      "en": {
+        "q": "How should I track my gut?",
+        "a": "You'll get the best and clearest results by making it a daily routine to log at least your Bristol stool type and DGBS score for gas levels."
+      }
+    },
+    {
+      "id": "comments-triggers",
+      "category": "usage",
+      "fi": {
+        "q": "Voinko lisätä kommentteja tai muita oireita?",
+        "a": "Kyllä voit! Vapaatekstikenttään voit kirjoittaa omia muistiinpanoja mahdollisista triggereistä (kuten syödyistä ruuista), vatsakivuista tai muista päivän huomioista."
+      },
+      "en": {
+        "q": "Can I add comments or other symptoms?",
+        "a": "Yes you can! In the free text field you can write your own notes about possible triggers (like foods eaten), stomach pain, or other observations of the day."
+      }
+    },
+    {
+      "id": "edit-delete",
+      "category": "usage",
+      "fi": {
+        "q": "Voinko muokata tai poistaa vanhoja merkintöjä?",
+        "a": "Kyllä. Kaikkia tekemiäsi kirjauksia pääsee muokkaamaan tai poistamaan jälkikäteen sovelluksen historianäkymästä milloin tahansa."
+      },
+      "en": {
+        "q": "Can I edit or delete old entries?",
+        "a": "Yes. All your entries can be edited or deleted afterwards from the app's history view at any time."
+      }
+    },
+    {
+      "id": "how-streak-works",
+      "category": "usage",
+      "fi": {
+        "q": "Miten streak toimii?",
+        "a": "Streak-laskuri mittaa peräkkäisiä päiviä, joina olet tehnyt sovellukseen vähintään yhden merkinnän. Se auttaa pitämään yllä säännöllistä seurantatottumusta."
+      },
+      "en": {
+        "q": "How does the streak work?",
+        "a": "The streak counter measures consecutive days you've made at least one entry in the app. It helps maintain a regular tracking habit."
+      }
+    },
+    {
+      "id": "works-offline",
+      "category": "usage",
+      "fi": {
+        "q": "Toimiiko sovellus ilman internet-yhteyttä?",
+        "a": "Kyllä! Koska data tallennetaan paikallisesti laitteellesi, Kakamit toimii täysin offline-tilassa vaikkapa lentokoneessa, ulkomailla tai mökillä ilman verkkoa."
+      },
+      "en": {
+        "q": "Does the app work without an internet connection?",
+        "a": "Yes! Because data is stored locally on your device, Kakamit works fully offline — on a plane, abroad, or at a cabin without network access."
+      }
+    },
+    {
+      "id": "export-data",
+      "category": "usage",
+      "fi": {
+        "q": "Voinko viedä datani talteen?",
+        "a": "Kyllä. Voit ladata kaikki omat merkinnäsi JSON-tiedostona omalle laitteellesi milloin tahansa sovelluksen asetuksista."
+      },
+      "en": {
+        "q": "Can I export my data?",
+        "a": "Yes. You can download all your entries as a JSON file to your device at any time from the app settings."
+      }
+    },
+    {
+      "id": "clear-browser-data",
+      "category": "usage",
+      "fi": {
+        "q": "Mitä jos tyhjennän selaimen tiedot?",
+        "a": "⚠️ TÄRKEÄÄ: Koska Kakamit ei käytä pilvipalveluita ja data on vain sinun laitteellasi, selaimen välimuistin tai sivuston tietojen tyhjentäminen poistaa myös sovelluksen merkinnät. Suosittelemme ottamaan säännöllisesti varmuuskopion viemällä datan JSON-tiedostona talteen!"
+      },
+      "en": {
+        "q": "What if I clear my browser data?",
+        "a": "⚠️ IMPORTANT: Because Kakamit does not use cloud services and data exists only on your device, clearing browser cache or site data will also delete your app entries. We recommend regularly backing up by exporting your data as a JSON file!"
+      }
+    },
+    {
+      "id": "multiple-devices",
+      "category": "usage",
+      "fi": {
+        "q": "Miten sovellus toimii useammalla eri laitteella?",
+        "a": "Data on täysin laitekohtaista tiukan yksityisyysratkaisun vuoksi. Voit kuitenkin siirtää tietojasi laitteesta toiseen helposti käyttämällä JSON-export/import-toimintoa (vienti ja tuonti)."
+      },
+      "en": {
+        "q": "How does the app work on multiple devices?",
+        "a": "Data is completely device-specific due to the strict privacy approach. However, you can easily transfer your data between devices using the JSON export/import feature."
+      }
+    },
+    {
+      "id": "is-free",
+      "category": "usage",
+      "fi": {
+        "q": "Onko Kakamit ilmainen?",
+        "a": "Kakamit on täysin ilmainen käyttää, eikä se sisällä piilokuluja, maksullisia ominaisuuksia tai häiritseviä mainoksia."
+      },
+      "en": {
+        "q": "Is Kakamit free?",
+        "a": "Kakamit is completely free to use and contains no hidden costs, paid features, or intrusive ads."
+      }
+    },
+    {
+      "id": "not-medical-device",
+      "category": "other",
+      "fi": {
+        "q": "Onko sovellus lääketieteellinen laite?",
+        "a": "Ei ole. Kakamit on puhtaasti työkalu ja apuväline oman hyvinvoinnin seurannan helpottamiseen. Se ei korvaa lääkärin tekemää diagnoosia, tutkimuksia tai hoitovaihtoehtoja."
+      },
+      "en": {
+        "q": "Is the app a medical device?",
+        "a": "No. Kakamit is purely a tool to help you track your own wellbeing. It does not replace medical diagnosis, examinations, or treatment options."
+      }
+    },
+    {
+      "id": "share-with-doctor",
+      "category": "other",
+      "fi": {
+        "q": "Voinko jakaa dataani lääkärin kanssa?",
+        "a": "Kyllä. Voit näyttää dataasi lääkärille tai ravitsemusterapeutille ottamalla sovelluksen kuvaajista kuvakaappauksia tai jakamalla sovelluksesta viedyn JSON-tiedoston."
+      },
+      "en": {
+        "q": "Can I share my data with a doctor?",
+        "a": "Yes. You can show your data to a doctor or nutritionist by taking screenshots of the app's charts or sharing the exported JSON file."
+      }
+    },
+    {
+      "id": "feedback",
+      "category": "other",
+      "fi": {
+        "q": "Miten voin antaa palautetta tai tehdä yhteistyöpyynnön?",
+        "a": "Parhaiten tavoitat meidät X:ssä (entinen Twitter). Ota tili seurantaan ja laita viestiä: <a href=\"https://x.com/KakamitApp\" target=\"_blank\" rel=\"noopener\">@KakamitApp</a>. Voit lähettää palautetta, ominaisuusehdotuksia, bugiraportteja tai yhteistyöpyyntöjä (esim. lääkärit, tutkijat ja kääntäjät). Kaikki palaute ja yhteistyöideat ovat erittäin tervetulleita!"
+      },
+      "en": {
+        "q": "How can I give feedback or make a collaboration request?",
+        "a": "You can best reach us on X (formerly Twitter). Follow us and send a message: <a href=\"https://x.com/KakamitApp\" target=\"_blank\" rel=\"noopener\">@KakamitApp</a>. You can send feedback, feature suggestions, bug reports, or collaboration requests (e.g., doctors, researchers, and translators). All feedback and collaboration ideas are very welcome!"
+      }
+    },
+    {
+      "id": "why-name-kakamit",
+      "category": "other",
+      "fi": {
+        "q": "Miksi sovellus on nimeltään Kakamit?",
+        "a": "Nimi on leikkisä suomalainen sanaleikki, joka yhdistää suolentuotoksen ja mittaamisen. Haluamme sen avulla poistaa turhaa vakavuutta, tabuja ja häpeää suoliston toimintaan liittyvistä asioista – vatsavaivat kuuluvat meille kaikille!"
+      },
+      "en": {
+        "q": "Why is the app called Kakamit?",
+        "a": "The name is a playful Finnish pun combining 'kakka' (poop) and 'mittaus' (measurement). With it, we want to remove unnecessary seriousness, taboos, and shame around gut function – digestive issues are something we all share!"
+      }
+    }
+  ]
+}

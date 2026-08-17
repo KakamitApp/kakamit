@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kakamit App Release Notes</title>
+<style>
+body {
+font-family: sans-serif;
+line-height: 1.6;
+color: #333;
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+.logo-container {
+text-align: center;
+margin-bottom: 20px;
+}
+h1, h2, h3 {
+color: #2c3e50;
+}
+h1 {
+text-align: center;
+border-bottom: 2px solid #3498db;
+padding-bottom: 10px;
+}
+h2 {
+border-bottom: 1px solid #ccc;
+padding-bottom: 5px;
+}
+.version {
+margin-bottom: 30px;
+}
+.release-date {
+font-style: italic;
+color: #7f8c8d;
+}
+.version-title {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+</style>
+</head>
+<body>
+<div class="logo-container">
+<a href="/">
+<img src="/kakamit.png" alt="Kakamit Logo" style="max-width: 150px;">
+</a>
+</div>
+<h1>App Release Notes</h1>
+<p>Kakamit.com is a free tool to track Gut Health. Data is stored ONLY on your device for maximum privacy. Use offline & export data.</p>
+
+<div class="version">
+<h2 class="version-title">🎉 Version 1.0</h2>
+<p class="release-date">Released: 16.8.2026</p>
+
+<h3>📖 Public Audit Repository</h3>
+<ul>
+<li><strong>Open source & auditable:</strong> Kakamit's source code is now published as a public, MIT-licensed audit repository so anyone can verify our privacy and security model. The DGBS concept, name, and brand remain reserved by Kakamit.</li>
+</ul>
+</div>
+
+<div class="version">
+<h2 class="version-title">💨 Version 0.8</h2>
+<p class="release-date">Released: 16.8.2026</p>
+
+<h3>💨 Clearer DGBS Icons</h3>
+<ul>
+<li><strong>Refreshed rating icons:</strong> Based on user feedback, the Daily Gas Burden Scale (DGBS) icons have been redesigned to be clearer and easier to tell apart, making your daily 1–5 rating quicker and more intuitive.</li>
+</ul>
+
+<h3>⚡ Optimizations & Security</h3>
+<ul>
+<li><strong>Performance optimizations:</strong> Further under-the-hood improvements for a faster, smoother experience.</li>
+<li><strong>Security improvements:</strong> Internal security updates and dependency upgrades to keep your local-only data safe.</li>
+</ul>
+</div>
+
+<div class="version">
+<h2 class="version-title">📊 Version 0.5.2</h2>
+<p class="release-date">Released: 3.7.2026</p>
+
+<h3>📊 CSV Export & Import</h3>
+<ul>
+<li><strong>Spreadsheet-friendly export:</strong> Alongside JSON, you can now export your data as a CSV file—open it directly in Excel, Numbers, or Google Sheets to chart and analyze your entries yourself.</li>
+<li><strong>CSV import too:</strong> Import a CSV file back into the app with the same safe, merge-by-ID behavior as JSON. The import button auto-detects whether your file is JSON or CSV, and invalid rows are skipped and reported. Everything stays on your device.</li>
+</ul>
+</div>
+
+<div class="version">
+<h2 class="version-title">📥 Version 0.5.1</h2>
+<p class="release-date">Released: 3.7.2026</p>
+
+<h3>📥 JSON Data Import</h3>
+<ul>
+<li><strong>Restore & merge your data:</strong> You can now import a previously exported JSON file directly from the entry list. Re-importing your own export safely restores or updates records without creating duplicates—existing entries are matched by ID and merged.</li>
+<li><strong>Safe by design:</strong> Invalid or unrecognized rows are skipped and reported back to you, and older data formats are migrated automatically. As always, everything stays on your device.</li>
+</ul>
+
+<h3>⚡ Technical Improvements</h3>
+<ul>
+<li><strong>Type-safe builds:</strong> Added strict TypeScript checking to the build pipeline, catching potential errors before they can ship.</li>
+<li><strong>Faster startup:</strong> Secondary pages are now code-split and loaded on demand, shrinking the initial app bundle for a quicker first load.</li>
+<li><strong>Cleaner internals:</strong> Removed dead code and resolved build warnings for a leaner, more maintainable app.</li>
+</ul>
+</div>
+
+<div class="version">
+<h2 class="version-title">🌟 Version 0.5.0</h2>
+<p class="release-date">Released: 2.7.2026</p>
+
+<h3>📄 Printable Doctor Report</h3>
+<ul>
+<li><strong>New Report Page:</strong> You can now generate a printable summary of your gut health data directly from your browser. This includes clinical summaries, weekly averages, and data distributions—perfect for printing or saving as a PDF for your doctor.</li>
+</ul>
+
+<h3>🌍 Localization & Technical Improvements</h3>
+<ul>
+<li><strong>Localization updates:</strong> General improvements and key syncing across all 13 supported languages to ensure a consistent experience for everyone.</li>
+<li><strong>Technical improvements:</strong> Under-the-hood bug fixes, code cleanup, and performance optimizations to keep the app running smoothly and privately.</li>
+</ul>
+</div>
+
+<div class="version">
+<h2 class="version-title">🔥 Version 0.4.0</h2>
+<p class="release-date">Released: 25.06.2026</p>
+
+<h3>📊 Logging Streak</h3>
+<ul>
+<li><strong>Daily logging streak:</strong> The app now tracks consecutive days you've logged entries. A streak badge on your home screen shows your current streak and celebrates milestones with toast notifications.</li>
+<li><strong>Milestones:</strong> Get recognized at 7, 14, 30, 60, 90, 180, and 365 days. Beat your personal record and the app lets you know.</li>
+<li><strong>Fully localized:</strong> Streak messages available in all 13 supported languages.</li>
+</ul>
+</div>
+
+<div class="version">
+<h2 class="version-title">⚡ Version 0.3.1</h2>
+<p class="release-date">Released: 25.4.2026</p>
+
+<h3>⚡ Technical Improvements</h3>
+<ul>
+<li>Significant performance optimizations and faster page load times.</li>
+<li>Reduced render-blocking resources for snappier startup.</li>
+<li>Codebase refactoring and internal architecture improvements.</li>
+</ul>
+</div>
+
+<div class="version">
+<h2 class="version-title">⚡ Version 0.3.0</h2>
+<p class="release-date">Released: 12.02.2026</p>
+
+<h3>🚀 Performance & Storage Overhaul</h3>
+<ul>
+<li><strong>Migration to IndexedDB:</strong> We have upgraded our local storage engine to <strong>IndexedDB</strong>. This allows for much larger datasets, better data integrity, and faster retrieval as your history grows.</li>
+<li><strong>Significant Speed Boost:</strong> Refactored core data-handling logic to reduce latency. The app now feels snappier, especially when loading long-term gut health trends.</li>
+<li><strong>Background Optimization:</strong> Improved the way data is indexed, ensuring that your privacy-focused, local-only database runs efficiently even on older devices.</li>
+</ul>
+</div>
+
+<div class="version">
+<h2 class="version-title">🇹🇭 Version 0.2.4</h2>
+<p class="release-date">Released: 5.12.2025</p>
+
+<h3>🌍 Wider Language Support</h3>
+<p>สวัสดี! The app is now fully translated and localized in **Thai**. We're excited to welcome our Thai-speaking users!</p>
+
+<h3>🔒 Security & Development Improvements</h3>
+<ul>
+<li>**Enhanced Security:** We have implemented new internal security updates and library version upgrades to ensure maximum protection of user data.</li>
+<li>**Optimized Performance:** General performance enhancements and minor bug fixes.</li>
+</ul>
+</div>
+<div class="version">
+<h2 class="version-title">✨ Version 0.2.3</h2>
+<p class="release-date">Released: 27.11.2025</p>
+<h3>🛠️ Improvements & Clarifications</h3>
+<ul>
+<li>Improvements and **standardization of terminology and translations** across the application.</li>
+<li>Added a link to the root concept document **Daily Gas Burden Scale (DGBS)**, now located in the **parent directory** at: <a href="../Daily_Gas_Burden_Scale_v1_en.pdf" target="_blank">Daily_Gas_Burden_Scale_v1_en.pdf</a>.</li>
+</ul>
+</div>
+
+<div class="version">
+<h2 class="version-title">🎉 Version 0.2.2</h2>
+<p class="release-date">Released: 14.11.2025</p>
+<h3>🇮🇹 Italian Language Support</h3>
+<p>Ciao! The app is now fully translated and localized in Italian. We're excited to welcome our Italian-speaking users!</p>
+<h3>🐛 Bug Fixes & Improvements</h3>
+<p>We've squashed some bugs to make your experience smoother:</p>
+<ul>
+<li>Fixed an issue where the language selector would not correctly display the selected language.</li>
+<li>Addressed a problem with date pickers that affected users on Firefox.</li>
+<li>General performance enhancements and UI tweaks.</li>
+</ul>
+</div>
+
+<div class="version">
+<h2 class="version-title">🎉 Version 0.2.1</h2>
+<p class="release-date">Released: 10.11.2025</p>
+<p>Hello! We've been working hard under the hood to make the app more versatile, stable, and easier to use. Here are the most important improvements for you:</p>
+
+<h3>🌍 Wider Language Support and Easier Feedback</h3>
+<ul>
+<li><strong>We Now Speak Finnish and Swedish!</strong> The app is now extensively translated and localized in Finnish and Swedish. Your user experience in your local language is now even smoother.</li>
+<li><strong>Enhanced Daily Feedback (DGBS):</strong> We have added a new comment field to the daily evaluations. You can now provide more specific feedback and log your thoughts, helping you track your progress even better.</li>
+<li><strong>Improved Discoverability:</strong> We have updated the app's information for search engines (metadata), meaning more people will find our app.</li>
+</ul>
+
+<h3>🚀 Faster and More Reliable</h3>
+<ul>
+<li><strong>Greater Stability on Phones:</strong> We fixed errors related to installing and using the app as a phone "application" (PWA fixes). It now runs more reliably and smoothly on all devices.</li>
+<li><strong>Smaller, Smoother App:</strong> We have cleaned up unnecessary files and configurations in the app's backend. This makes the app lighter and helps us develop it faster in the future.</li>
+<li><strong>Content and Visual Fine-Tuning:</strong> We have updated some images and made small tweaks to the user interface for the most pleasant user experience possible.</li>
+</ul>
+</div>
+
+<div class="version">
+<h2 class="version-title">🌟 Version 0.1</h2>
+<p class="release-date">Released: 1.11.2025</p>
+<p>This was the app's first major release, which introduced the tool for tracking gas-related symptoms.</p>
+
+<h3>✨ New Feature: DGBS Tracker (Daily Gas Burden Scale)</h3>
+<ul>
+<li><strong>Introduction of the Daily Gas Burden Scale (DGBS):</strong> We have implemented the DGBS scale, a simple and effective way to assess the burden caused by gas-related symptoms, such as flatulence and bloating.</li>
+<li><strong>How it works:</strong> You can now provide a daily rating on a scale of 1–5, which helps you monitor the development of your symptoms over time.</li>
+<li><strong>Basic Structure Ready:</strong> The basic version of the application, navigation, and the core functionality of the assessment tool have been created.</li>
+</ul>
+</div>
+
+<p>Thank you for using our app! If you have any feedback or questions, we are happy to hear them.</p>
+<p><a href="https://x.com/KakamitApp" target="_blank" rel="noopener noreferrer">Follow us on X</a></p>
+</body>
+</html>

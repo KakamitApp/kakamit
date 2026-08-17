@@ -1,0 +1,21 @@
+{
+  "name": "Kakamit",
+  "short_name": "Kakamit",
+  "description": "Kakamit - Private Gut & Bowel Tracker App | Free PWA & Offline |  Daily Gas Burden Scale (DGBS).",
+  "icons": [
+    {
+      "src": "/kakamit-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/kakamit-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}

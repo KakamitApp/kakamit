@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kakamit - Private Gut & Bowel Tracker App</title>
+  <meta name="description" content="Kakamit is a free PWA to track Gut Health. Daily Gas Burden Scale (DGBS). Data is stored ONLY on your device for maximum privacy." />
+  <meta name="keywords" content="gut health,bowel tracker,stool chart,poop tracker,bristol stool scale,PWA,offline app,privacy,DGBS,gas" />
+  <link rel="icon" href="/kakamit.png" />
+  <link rel="manifest" href="/manifest.json" fetchpriority="low" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Literata:wght@600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Literata:wght@600;700&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Literata:wght@600;700&display=swap" /></noscript>
+  <script>
+    (function(){
+      var t=localStorage.getItem('theme');
+      var d=document.documentElement;
+      if(t==='dark'||((!t)&&matchMedia('(prefers-color-scheme:dark)').matches)){
+        d.classList.add('dark');
+      }
+    })();
+  </script>
+</head>
+<body class="min-h-screen bg-background text-foreground font-body antialiased">
+  <div id="app"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
